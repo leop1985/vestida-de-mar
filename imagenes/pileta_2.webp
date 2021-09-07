@@ -1,0 +1,2590 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://www.brisasdemarazul.com.ar/index.html -->
+<html lang="es" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./pileta 2_files/recaptcha__es.js.descarga" crossorigin="anonymous" integrity="sha384-Hk1in44ZVU13jfO/BEXbtimocfKxzVwin+hc899ctsN716JgefJ9I+9R6ICCUxyi"></script><script type="text/javascript" async="" src="./pileta 2_files/recaptcha__es.js.descarga" crossorigin="anonymous" integrity="sha384-Hk1in44ZVU13jfO/BEXbtimocfKxzVwin+hc899ctsN716JgefJ9I+9R6ICCUxyi"></script>
+<meta name="viewport" content="width=1300, max-width=1300">
+<meta name="google-site-verification" content="l_kBGVByEFuQBNvWwVoARudBcFDIGjXjDZ9cFhfwagg">
+
+
+
+
+<script type="text/javascript" src="./pileta 2_files/NRJS-9143e2093e3ed9c1888"></script><script src="./pileta 2_files/nr-1210.min.js.descarga"></script><script type="text/javascript" async="" src="./pileta 2_files/recaptcha__en.js.descarga" crossorigin="anonymous" integrity="sha384-pW7zXhudGWVlF6CkWBd8dS8KzT6L2vJNeTFwpRQ10v9UhG1wVmMDY5pNPr52knQ2"></script><script type="text/javascript" async="" src="./pileta 2_files/recaptcha__en.js.descarga" crossorigin="anonymous" integrity="sha384-pW7zXhudGWVlF6CkWBd8dS8KzT6L2vJNeTFwpRQ10v9UhG1wVmMDY5pNPr52knQ2"></script><script type="text/javascript" async="" src="./pileta 2_files/recaptcha__en.js.descarga" crossorigin="anonymous" integrity="sha384-pW7zXhudGWVlF6CkWBd8dS8KzT6L2vJNeTFwpRQ10v9UhG1wVmMDY5pNPr52knQ2"></script><script type="text/javascript" async="" src="./pileta 2_files/f.txt"></script><script type="text/javascript" async="" src="./pileta 2_files/analytics.js.descarga"></script><script type="text/javascript" async="" src="./pileta 2_files/analytics.js.descarga"></script><script type="text/javascript" async="" src="./pileta 2_files/js"></script><script type="text/javascript" async="" src="./pileta 2_files/js(1)"></script><script src="./pileta 2_files/206443340558348" async=""></script><script async="" src="./pileta 2_files/fbevents.js.descarga"></script><script async="" src="./pileta 2_files/gtm.js.descarga"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-9143e2093e3ed9c1888",applicationID:"823440615"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta http-equiv="Cache-Control" content="Public">
+<meta name="robots" content="index, follow">
+
+
+
+<title>Inicio | Brisas de Mar Azul</title>
+<meta name="description" content="BRISAS DE MAR AZUL está compuesto por seis aparts de moderno diseño, ubicado a sólo 400 mts de la playa de Mar Azul y a 100 mts del centro comercial. Nuestros amplios ventanales están pensados para que puedas vislumbrar las hermosas vistas que nos ofrece el bosque del lugar.">
+
+<meta http-equiv="content-language" content="es">
+<meta property="og:url" content="https://www.brisasdemarazul.com.ar/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Inicio - Brisas de Mar Azul">
+<meta property="og:description" content="BRISAS DE MAR AZUL está compuesto por seis aparts de moderno diseño, ubicado a sólo 400 mts de la playa de Mar Azul y a 100 mts del centro comercial. Nuestros amplios ventanales están pensados para que puedas vislumbrar las hermosas vistas que nos ofrece el bosque del lugar.">
+
+<meta property="og:image" content="https://picsv3-b.pxsol.com/1512/P2870/photos/6076e65f07d9065c8ceabc1126128c4210b85d25.jpg?auto=format&amp;h=430&amp;ixlib=php-3.3.0&amp;w=630&amp;s=6ffb10f89a5b1b8f8e22efe5a4d97c5f">
+    
+
+<link rel="shortcut icon" href="./pileta 2_files/15e221d4a8cdba6b7127be1c45375a0afb3d755b.png">
+<link rel="icon" type="image/png" href="./pileta 2_files/15e221d4a8cdba6b7127be1c45375a0afb3d755b.png">
+   <link rel="manifest" href="https://www.brisasdemarazul.com.ar/manifest.json?pos=BrisasdeMarAzul"> 
+
+<meta name="theme-color" content="#388333">
+
+<meta property="og:site_name" content="Inicio - Brisas de Mar Azul">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="Inicio - Brisas de Mar Azul">
+<meta name="twitter:title" content="Inicio - Brisas de Mar Azul">
+<meta name="twitter:description" content="BRISAS DE MAR AZUL está compuesto por seis aparts de moderno diseño, ubicado a sólo 400 mts de la playa de Mar Azul y a 100 mts del centro comercial. Nuestros amplios ventanales están pensados para que puedas vislumbrar las hermosas vistas que nos ofrece el bosque del lugar.">
+<meta name="twitter:creator" content="PXSOL">
+<meta name="twitter:image" content="https://picsv3-b.pxsol.com/1512/P2870/photos/6076e65f07d9065c8ceabc1126128c4210b85d25.jpg?auto=format&amp;h=430&amp;ixlib=php-3.3.0&amp;w=630&amp;s=6ffb10f89a5b1b8f8e22efe5a4d97c5f">
+
+
+
+
+<style>
+			.neo_bgcolor_primary, .MuiButton-containedSecondary {
+    background-color: #388333 !important;
+}
+.neo_color_primary {
+    color: #388333;
+}
+.cta_webcheckin_px {
+    background-color: #388333 !important;
+    color: white !important;
+    border: none !important;
+    font-weight: bold;
+    right: 0;
+    display: flex;
+    align-items: center;
+    font-size: 13px !important;
+    padding: 7px 8px !important;
+    line-height: 1.2;
+    text-align: left;
+}
+.cta_webcheckin_px * {
+    color: inherit !important;
+}
+
+.cta_webcheckin_px {
+    background-color: #609c5c;
+}
+.cta_webcheckin_px i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.neo_bgcolor_primary:hover, .MuiButton-containedSecondary:hover {
+    background-color: #609c5c;
+}
+.px-sm-inputcontainer:hover label { 
+    color: #388333 !important;
+}
+div.ui-datepicker#ui-datepicker-div .ui-state-active, div.ui-datepicker#ui-datepicker-div .ui-widget-content .ui-state-active, div.ui-datepicker#ui-datepicker-div .ui-widget-header .ui-state-active, div.ui-datepicker#ui-datepicker-div td:not(.ui-datepicker-today) .ui-state-highlight, div.ui-datepicker#ui-datepicker-div .ui-widget-content .ui-state-highlight, div.ui-datepicker#ui-datepicker-div .ui-widget-header .ui-state-highlight {
+    background-color: #388333 !important;
+}
+
+.px-mk-iconchangesearch {
+    color: #388333 !important;
+}
+
+.px-mk-locationdropdown>*:hover .px-mk-locationimg {
+    fill: #388333 !important;
+}
+
+.neo_mobile_supratop .neo_supratop_selector i {
+    color: #388333 !important;
+}
+
+.standard_cta {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #388333 !important;
+    color: #FFFFFF;
+    transition: .2s ease-out;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.standard_cta:hover {
+    background-color: #74a971;
+}
+.standard_cta:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.neo_bgcolor_primary_text {
+    color: #FFFFFF;
+}</style>
+
+
+
+<script type="application/ld+json" defer="" async="">
+{
+   "url" : "https://www.brisasdemarazul.com.ar/",
+   "telephone": "+54 9 11 3804 6037",
+   "description" : "BRISAS DE MAR AZUL está compuesto por seis aparts de moderno diseño, ubicado a sólo 400 mts de la playa de Mar Azul y a 100 mts del centro comercial. Nuestros amplios ventanales están pensados para que puedas vislumbrar las hermosas vistas que nos ofrece el bosque del lugar.",
+   "name" : "Inicio - Brisas de Mar Azul",
+      "image" : "https://picsv3-b.pxsol.com/1512/P2870/photos/6076e65f07d9065c8ceabc1126128c4210b85d25.jpg?auto=format&h=430&ixlib=php-3.3.0&w=630&s=6ffb10f89a5b1b8f8e22efe5a4d97c5f",
+      "aggregateRating" : {
+      "reviewCount" : 439,
+      "@type" : "AggregateRating",
+      "bestRating" : 10,
+      "ratingValue" : 8.9   },
+      "@type" : "Hotel",
+   "address" : {
+      "postalCode" : "",
+      "streetAddress" : " Copacabana entre calle 33 y calle 34, Mar Azul, Buenos Aires,  Mar de las Pampas, Buenos Aires, Argentina",
+      "addressCountry" : "Argentina",
+      "addressRegion" : "Buenos Aires",
+      "addressLocality" : " Copacabana entre calle 33 y calle 34, Mar Azul, Buenos Aires",
+      "@type" : "PostalAddress"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -37.338353445999,
+    "longitude": -57.032851433205   },
+   "@context" : "http://schema.org"
+   }
+</script> 
+
+ 
+
+			<link rel="icon" sizes="192x192" href="https://picsv3-b.pxsol.com/1512/pos/15e221d4a8cdba6b7127be1c45375a0afb3d755b.png?auto=format&amp;h=192&amp;ixlib=php-3.3.0&amp;w=192&amp;s=b1584195852803d89cee5715e2bad000">
+			<link rel="icon" type="image/png" href="./pileta 2_files/15e221d4a8cdba6b7127be1c45375a0afb3d755b.png">
+		<!-- CustomHTMLHead (SiteJson) --><link href="./pileta 2_files/css" rel="stylesheet">
+
+<link href="./pileta 2_files/css(1)" rel="stylesheet">
+
+<link href="./pileta 2_files/css(2)" rel="stylesheet">
+<!-- Pos->Type: hotel.css -->
+
+
+<!-- Global site tag (gtag.js)  -->
+<script async="" src="./pileta 2_files/js(2)"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+    gtag('config', 'UA-155949771-3');
+    
+    gtag('config', 'UA-34517567-10');
+  
+      gtag('config', 'AW-1028619328');
+  </script>
+ 
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TPTNCNX');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '206443340558348');
+  fbq('track', 'PageView');
+  fbq('track', "Search");
+ 
+</script> 
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=206443340558348&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+ 
+
+<link id="siteCss" rel="stylesheet" type="text/css" href="./pileta 2_files/css_3.css"><link id="fawesome" rel="stylesheet" type="text/css" href="./pileta 2_files/all.css"><link id="fawesome" rel="stylesheet" type="text/css" href="./pileta 2_files/materialdesignicons.min.css"><link id="jqToastCss" rel="stylesheet" type="text/css" href="./pileta 2_files/jquery.toast.min.css"><script id="jqToastJs" type="text/javascript" defer="" async="" src="./pileta 2_files/jquery.toast.min.js.descarga"></script><style type="text/css">.fancybox-margin{margin-right:0px;}</style><script src="./pileta 2_files/f(1).txt"></script></head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPTNCNX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+<div class="neo_loader">
+<style>
+.linear-activity{overflow:hidden;width:100%;height:4px;background-color:#B3E5FC;margin:0}.determinate{position:relative;max-width:100%;height:100%;-webkit-transition:width .5s ease-out 1s;-moz-transition:width .5s ease-out 1s;-o-transition:width .5s ease-out 1s;transition:width .5s ease-out 1s;background-color:#03A9F4}.indeterminate{position:relative;width:100%;height:100%}.indeterminate:after,.indeterminate:before{content:'';position:absolute;height:100%}.indeterminate:before{background-color:#03A9F4;animation:indeterminate_first 1.5s infinite ease-out}.indeterminate:after{background-color:#4FC3F7;animation:indeterminate_second 1.5s infinite ease-in}@keyframes indeterminate_first{0%{left:-100%;width:100%}100%{left:100%;width:10%}}@keyframes indeterminate_second{0%{left:-150%;width:100%}100%{left:100%;width:10%}}.neo_loader{position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999999999999999999999;background:#fff;height:100vh;width:100vw;display:flex;flex-direction:column;justify-content:center;align-items:center; padding: 40px;box-sizing: border-box;text-align: center;}.neo_loader .loaderline{width:400px;margin:40px;max-width:90vw}.loadername{color:#bbb;font-family:Helvetica,Arial,sans-serif;margin:10px auto 15px}.linear-activity.gray{background-color:#eaeaea}.gray .indeterminate:after,.gray .indeterminate:before{background-color:#bbb}.neo_megacontainer{display:none}</style>
+
+					<img style="max-height: 300px;" src="./pileta 2_files/15e221d4a8cdba6b7127be1c45375a0afb3d755b.png" alt="Brisas de Mar Azul">	
+					<div class="loadername">
+		Brisas de Mar Azul	</div> 
+	<div class="loaderline">
+		<div class="linear-activity gray">
+			<div class="indeterminate"></div>
+		</div>
+	</div>
+</div>
+
+<div class="neo_megacontainer index">
+
+
+	
+<div class="main_wraper_top" id="main_wraper_top">
+
+
+<div class="neo_template_container neo_template_ computer">
+
+
+<nav id="mainNavbar" class="flex flex-wrap main-navbar"><div class="sm-100 idiomas-container"><div class=""><div class="pxModule_include  ModuloWrap_idiomas  "><div id="top_menu">
+
+	<div id="contenedor_top">
+		<div id="menu_div_top">
+			<div class="nav_top flex flex-s-center">
+
+										<a href="https://www.brisasdemarazul.com.ar/app/" ignorar-vista="true" target="_blank" class="btn_sesion cta_webcheckin_px">
+				<i class="mdi mdi-login" aria-hidden="true"></i>
+				<span>
+					Check In y Cancelación Online				</span>
+			</a>
+			
+		
+
+
+				<div class="selectidiomaymoneda">
+					<input type="hidden" id="ModuloIdioma_DefaultCurrency" value="ARS">
+					<div class="texto_idiomaymoneda">
+						Moneda - </div>
+						<div id="deploymoneda" class="pointer deploymoneda">
+												<div class="monedaactual hidden" cur="USD">
+								USD $						</div>
+												<div class="monedaactual" cur="ARS">
+								ARS $						</div>
+											</div>
+										<div id="monedasshow" class="monedasshow" style="display: none;">
+						<div class="titlemenujs">
+							Elija la moneda de su preferencia						</div>
+												<div class="monedaitem changeCurrency" cur="USD">
+								<strong>USD $</strong>
+								<div class="monedasname">
+									Dolares Americanos								</div>
+							</div>
+												<div class="monedaitem changeCurrency  hidden" cur="ARS">
+								<strong>ARS $</strong>
+								<div class="monedasname">
+									Pesos Argentinos								</div>
+							</div>
+											</div>
+
+					
+					<div class="texto_idiomaymoneda">
+						Idioma - </div>
+
+					
+					<div id="deployidioma" class="deployidioma">
+												<img alt="Bandera" class="bandera" src="./pileta 2_files/bnd_es.png" height="24px" width="24px">
+											</div>
+
+					
+					<div id="idiomasshow" class="idiomasshow" style="display: none;">
+						<div class="titlemenujs">
+							Elige el idioma que prefieras						</div>
+												<div class="idiomaitem">
+						
+						<a class="idiomalink" lng="en" href="https://www.brisasdemarazul.com.ar/en/index.html" ignorar-vista="true">
+																<img class="bandera" src="./pileta 2_files/bnd_en.png" height="24px" width="24px" alt="Bandera en">
+																<span class="nameidioma">
+									English								</span>
+							</a>
+						</div>
+												<div class="idiomaitem">
+						
+						<a class="idiomalink" lng="pt" href="https://www.brisasdemarazul.com.ar/pt/index.html" ignorar-vista="true">
+																<img class="bandera" src="./pileta 2_files/bnd_pt.png" height="24px" width="24px" alt="Bandera pt">
+																<span class="nameidioma">
+									Português								</span>
+							</a>
+						</div>
+												<div class="idiomaitem">
+						
+						<a class="idiomalink" lng="fr" href="https://www.brisasdemarazul.com.ar/fr/index.html" ignorar-vista="true">
+																<img class="bandera" src="./pileta 2_files/bnd_fr.png" height="24px" width="24px" alt="Bandera fr">
+																<span class="nameidioma">
+									Français								</span>
+							</a>
+						</div>
+												<div class="idiomaitem">
+						
+						<a class="idiomalink" lng="de" href="https://www.brisasdemarazul.com.ar/de/index.html" ignorar-vista="true">
+																<img class="bandera" src="./pileta 2_files/bnd_de.png" height="24px" width="24px" alt="Bandera de">
+																<span class="nameidioma">
+									Deutsch								</span>
+							</a>
+						</div>
+											</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div></div></div><div class="sm-80 flex flex-column flex-wrap flex-center"><ul class="item-list"><li class="flex-center"><a class="" href="https://www.brisasdemarazul.com.ar/index.html" target="">Inicio</a></li><li class="flex-center"><a class="" href="https://www.brisasdemarazul.com.ar/apartamentos.html" target="">Apartamentos</a></li><li class="flex-center"><a class="" href="https://www.brisasdemarazul.com.ar/servicios.html" target="">Servicios</a></li><li class="flex-center marca"><a class="brand-container flex-center" href="https://www.brisasdemarazul.com.ar/index.html" target=""></a></li><li class="flex-center"><a class="" href="https://www.brisasdemarazul.com.ar/promociones.html" target="">Promociones</a></li><li class="flex-center"><a class="" href="https://www.brisasdemarazul.com.ar/medidascovid.html" target="">Medidas Covid</a></li><li class="flex-center"><a class="" href="https://www.brisasdemarazul.com.ar/contacto.html" target="">Ubicación y Contacto</a></li></ul></div><div class="sm-10 flex flex-center toggle_search"><div class="btn btn-search btn_general white"><i class="mdi mdi-room-service"></i><span class="">Reservar Ahora</span></div></div></nav> 
+
+		<div class="neo_template_block neo_marketplace_buscador_v3 main-finder pxModule_include ModuloWrap_marketplace_buscador_v3" id="mainTopSearch">
+
+			
+
+
+<div class="px-mk-buscador-container  buscar_lp ">
+
+
+
+  <form px-endpoint="https://api.pxsol.io/v1-web" action="https://api.pxsol.io/v1-web/search/insert" ajax-action="search/insert" method="post" name="pxmk_searchform" id="pxmk_searchform" class="px-mk-searchform marketplace_searchform_computer" target="_self" novalidate="novalidate">
+  <label class="error px-mk-generalerror nodisplay">Ha ocurrido un error, por favor intente nuevamente</label>
+        
+
+  	
+    
+	  
+	  
+
+	<div class="fechas_ancho_entrada px-sm-inputcontainer w-padding px-mk-fixedwidth-inputcontainer">
+		<label class="px-mk-inputicon" for="fechaingreso">
+			<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+    <g>
+        <g>
+            <g>
+                <rect x="213.333" y="234.667" width="106.667" height="106.667"></rect>
+                <path d="M362.667,42.667h-21.333V0h-42.667v42.667H128V0H85.333v42.667H64c-23.573,0-42.453,19.093-42.453,42.667L21.333,384				c0,23.573,19.093,42.667,42.667,42.667h298.667c23.573,0,42.667-19.093,42.667-42.667V85.333				C405.333,61.76,386.24,42.667,362.667,42.667z M362.667,384H64V149.333h298.667V384z"></path>
+            </g>
+        </g>
+    </g>
+</svg>		</label>
+		<label class="px-mk-labelinput" for="fechaingreso">
+			Fecha de Llegada		</label>
+		<input name="Start" type="text" style="font-size: 16px !important;" onfocus="return false;" readonly="" id="fechaingreso" class="hasDatepicker" value="19/08/2021" placeholder="Llegada">
+	</div>
+  
+	<div class=" fechas_ancho_salida px-sm-inputcontainer w-padding px-mk-fixedwidth-inputcontainer">    
+		<label class="px-mk-inputicon" for="fechaegreso">
+			<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+    <g>
+        <g>
+            <g>
+                <rect x="213.333" y="234.667" width="106.667" height="106.667"></rect>
+                <path d="M362.667,42.667h-21.333V0h-42.667v42.667H128V0H85.333v42.667H64c-23.573,0-42.453,19.093-42.453,42.667L21.333,384				c0,23.573,19.093,42.667,42.667,42.667h298.667c23.573,0,42.667-19.093,42.667-42.667V85.333				C405.333,61.76,386.24,42.667,362.667,42.667z M362.667,384H64V149.333h298.667V384z"></path>
+            </g>
+        </g>
+    </g>
+</svg>		</label>
+		<label class="px-mk-labelinput" for="fechaegreso">
+			Fecha de Salida		</label>
+		<input name="End" type="text" style="font-size: 16px !important;" onfocus="return false;" readonly="" id="fechaegreso" size="10" value="20/08/2021" class="relative maxzindex pointer hasDatepicker" placeholder="Salida">
+	</div>	
+                       
+
+    <div id="NochesError" class="error" style="display:none"></div>
+ 
+    
+        
+<div class="nodisplay" id="Combinations">[{"Adults":"1","Childs":"3"},{"Adults":"2","Childs":"3"},{"Adults":"3","Childs":"2"},{"Adults":"4","Childs":"2"},{"Adults":"5","Childs":"1"},{"Adults":"6","Childs":"0"}]</div>	
+                                
+<div class="wrap_PartyTypeSimulator PartyTypeSimulator">             
+	  
+		<div class="SelectorInitial px-sm-inputcontainer px-mk-fixedwidth-inputcontainer nodisplay" rel="single">
+			<label class="px-mk-labelinput">
+				Tipo de Habitación			</label>
+			<span class="texto">
+				Individual			</span> 
+  	  	  	<label class="ignoreclick px-mk-inputicon">
+			  	<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="408px" height="408px" viewBox="0 0 408 408" style="enable-background:new 0 0 408 408;" xml:space="preserve">
+<g>
+	<g id="person">
+		<path d="M204,204c56.1,0,102-45.9,102-102S260.1,0,204,0c-56.1,0-102,45.9-102,102S147.9,204,204,204z M204,255
+			C135.15,255,0,288.15,0,357v51h408v-51C408,288.15,272.85,255,204,255z"></path>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+			</label>
+  	  	</div>
+		<div class="SelectorInitial px-sm-inputcontainer px-mk-fixedwidth-inputcontainer " rel="double">
+			<label class="px-mk-labelinput">
+				Tipo de Habitación			</label>	
+			<span class="texto">
+				Doble			</span> 
+  	  	  	<label class="ignoreclick px-mk-inputicon">
+			  	<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path d="M309.333,213.333c29.44,0,53.12-23.893,53.12-53.333s-23.68-53.333-53.12-53.333S256,130.56,256,160
+				S279.893,213.333,309.333,213.333z"></path>
+			<path d="M149.333,192c35.307,0,63.787-28.693,63.787-64c0-35.307-28.48-64-63.787-64s-64,28.693-64,64
+				C85.333,163.307,114.027,192,149.333,192z"></path>
+			<path d="M149.333,234.667C99.52,234.667,0,259.627,0,309.333v53.333h149.333v-48c0-18.133,7.147-49.813,50.56-74.027
+				C181.333,236.693,163.307,234.667,149.333,234.667z"></path>
+			<path d="M309.333,256C270.187,256,192,275.627,192,314.667v48h234.667v-48C426.667,275.627,348.48,256,309.333,256z"></path>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+			</label>
+  	  	</div>
+  	  	<div class="SelectorInitial px-sm-inputcontainer px-mk-fixedwidth-inputcontainer nodisplay" rel="familiar">
+			<label class="px-mk-labelinput">
+				Tipo de Habitación			</label>	
+			<span class="texto">
+				Familiar			</span> 
+  	  		<label class="ignoreclick px-mk-inputicon">
+				<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path d="M309.333,213.333c29.44,0,53.12-23.893,53.12-53.333s-23.68-53.333-53.12-53.333S256,130.56,256,160
+				S279.893,213.333,309.333,213.333z"></path>
+			<path d="M149.333,192c35.307,0,63.787-28.693,63.787-64c0-35.307-28.48-64-63.787-64s-64,28.693-64,64
+				C85.333,163.307,114.027,192,149.333,192z"></path>
+			<path d="M149.333,234.667C99.52,234.667,0,259.627,0,309.333v53.333h149.333v-48c0-18.133,7.147-49.813,50.56-74.027
+				C181.333,236.693,163.307,234.667,149.333,234.667z"></path>
+			<path d="M309.333,256C270.187,256,192,275.627,192,314.667v48h234.667v-48C426.667,275.627,348.48,256,309.333,256z"></path>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+			</label>
+  	  	</div>
+  	  	<div class="SelectorInitial px-sm-inputcontainer px-mk-fixedwidth-inputcontainer nodisplay" rel="multiple">
+			<label class="px-mk-labelinput">
+				Tipo de Habitación			</label>	
+			<span class="texto">
+				Multiple			</span> 
+  	  	  	<label class="ignoreclick px-mk-inputicon">
+				<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path d="M309.333,213.333c29.44,0,53.12-23.893,53.12-53.333s-23.68-53.333-53.12-53.333S256,130.56,256,160
+				S279.893,213.333,309.333,213.333z"></path>
+			<path d="M149.333,192c35.307,0,63.787-28.693,63.787-64c0-35.307-28.48-64-63.787-64s-64,28.693-64,64
+				C85.333,163.307,114.027,192,149.333,192z"></path>
+			<path d="M149.333,234.667C99.52,234.667,0,259.627,0,309.333v53.333h149.333v-48c0-18.133,7.147-49.813,50.56-74.027
+				C181.333,236.693,163.307,234.667,149.333,234.667z"></path>
+			<path d="M309.333,256C270.187,256,192,275.627,192,314.667v48h234.667v-48C426.667,275.627,348.48,256,309.333,256z"></path>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+			</label>
+  	  	</div>
+		<div class="PartyTypeSimulatorSelect nodisplay" style="display: none;">
+		  	<div class="Selector px-sm-inputcontainer " rel="single">
+				<span class="texto">
+					  Apartamento Individual				</span>
+				<label class="ignoreclick px-mk-inputicon">
+					<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="408px" height="408px" viewBox="0 0 408 408" style="enable-background:new 0 0 408 408;" xml:space="preserve">
+<g>
+	<g id="person">
+		<path d="M204,204c56.1,0,102-45.9,102-102S260.1,0,204,0c-56.1,0-102,45.9-102,102S147.9,204,204,204z M204,255
+			C135.15,255,0,288.15,0,357v51h408v-51C408,288.15,272.85,255,204,255z"></path>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+				</label>
+			</div>
+			<div class="Selector px-sm-inputcontainer " rel="double">
+				<span class="texto">
+					Apartamento Doble				</span>
+				<label class="ignoreclick px-mk-inputicon">
+					<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path d="M309.333,213.333c29.44,0,53.12-23.893,53.12-53.333s-23.68-53.333-53.12-53.333S256,130.56,256,160
+				S279.893,213.333,309.333,213.333z"></path>
+			<path d="M149.333,192c35.307,0,63.787-28.693,63.787-64c0-35.307-28.48-64-63.787-64s-64,28.693-64,64
+				C85.333,163.307,114.027,192,149.333,192z"></path>
+			<path d="M149.333,234.667C99.52,234.667,0,259.627,0,309.333v53.333h149.333v-48c0-18.133,7.147-49.813,50.56-74.027
+				C181.333,236.693,163.307,234.667,149.333,234.667z"></path>
+			<path d="M309.333,256C270.187,256,192,275.627,192,314.667v48h234.667v-48C426.667,275.627,348.48,256,309.333,256z"></path>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+				</label>
+			</div>
+			<div class="Selector px-sm-inputcontainer " rel="multiple">
+				<span class="texto">
+					Otras opciones				</span>
+				<label class="ignoreclick px-mk-inputicon">
+					<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path d="M309.333,213.333c29.44,0,53.12-23.893,53.12-53.333s-23.68-53.333-53.12-53.333S256,130.56,256,160
+				S279.893,213.333,309.333,213.333z"></path>
+			<path d="M149.333,192c35.307,0,63.787-28.693,63.787-64c0-35.307-28.48-64-63.787-64s-64,28.693-64,64
+				C85.333,163.307,114.027,192,149.333,192z"></path>
+			<path d="M149.333,234.667C99.52,234.667,0,259.627,0,309.333v53.333h149.333v-48c0-18.133,7.147-49.813,50.56-74.027
+				C181.333,236.693,163.307,234.667,149.333,234.667z"></path>
+			<path d="M309.333,256C270.187,256,192,275.627,192,314.667v48h234.667v-48C426.667,275.627,348.48,256,309.333,256z"></path>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+				</label>
+			</div>
+		</div>
+	                                       
+
+		<select name="PartyType" class="PartyTypeSelect nodisplay" id="PartyType">
+			<option value="single">Individual</option>
+			<option value="double" selected="">Doble</option>
+			<option value="familiar">Familiar</option>
+			<option value="multiple">Multiple</option>
+		</select>
+                           
+      
+	               
+                              
+	  <div id="MultiplePartySelect" class="nodisplay" style="display: none;">
+	  
+		  <div class="RoomsSelectContainer" roomnumber="1">
+		  
+			  <div class="RoomNameContainer">
+				  Apartamento <span id="RoomNumber">1</span>
+			  </div>
+			  
+			 <div class="hostContainer flex-column">
+				<div class="hostPeopleContainer flex flex-s-center flex-m-center">
+					<div class="AdultsContainer ">
+							<span class="texto">Adultos</span>
+							<div class="AdultsSelectContainer">
+								<select class="AdultsSelect CalculateParty" onchange="CalculatePartyGroup(this)" roomnumber="1">
+																		<option value="1">1</option>
+																		<option value="2" selected="selected">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">6</option>
+																	</select>
+							</div>
+					</div>
+					<div class="ChildrensContainers ">
+							<span class="texto">Menores</span>
+							<div class="ChildrensSelectContainer">
+								<select class="ChildrensSelect" onchange="ChildrensSelect(this)" roomnumber="1">
+																		<option value="0">-</option>
+																		<option value="1">1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																	</select>
+							</div>
+					</div>
+				</div>
+				
+				<div class="ChildrensAges nodisplay" roomnumber="1">
+					<span class="texto">Edad de los Menores</span>
+					<div class="ChildrensAgesSelectContainer" roomnumber="1">
+					</div>
+				</div>
+		  	</div>  
+		 
+		  
+		  </div>	
+	 
+		<div class="flex flex-m-sb flex-s-center">
+
+			<div class="px-mk-addnewroom flex-grow">
+				<button type="button">
+					<span>Añadir</span>
+					<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="510px" height="510px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<g>
+	<g id="unknown-3">
+		<path d="M280.5,153h-51v76.5H153v51h76.5V357h51v-76.5H357v-51h-76.5V153z M255,0C114.75,0,0,114.75,0,255s114.75,255,255,255
+			s255-114.75,255-255S395.25,0,255,0z M255,459c-112.2,0-204-91.8-204-204S142.8,51,255,51s204,91.8,204,204S367.2,459,255,459z"></path>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+				</button>
+			</div>       
+			<div class="px-mk-removeroom flex-grow nodisplay">
+			<button type="button" class="px-mk-removeroom-btn" roomnumber="1">
+				<span>Remover</span>
+				<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<rect x="106.667" y="192" width="213.333" height="42.667"></rect>
+			<path d="M213.333,0C95.467,0,0,95.467,0,213.333s95.467,213.333,213.333,213.333S426.667,331.2,426.667,213.333
+				S331.2,0,213.333,0z M213.333,384c-94.08,0-170.667-76.587-170.667-170.667S119.253,42.667,213.333,42.667
+				S384,119.253,384,213.333S307.413,384,213.333,384z"></path>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+ 
+			</button>	
+			</div>                                                                               
+		</div>
+		
+		<div class="NotValidChildrens nodisplay animated shake"><i class="fa fa-exclamation" aria-hidden="true"></i> Seleccione edad para los niños por favor</div>
+     
+     </div>                           
+      
+	
+                
+               
+ </div>                                                       
+                                                                                                                                                      
+    <input name="MaxRooms" type="hidden" id="MaxRooms" value="4">
+    <input name="Nights" type="hidden" id="Nights" value="1">
+    <input name="Channel" type="hidden" id="Channel" value="2">
+    <input name="RateType" type="hidden" id="RateType" value="auto">
+    <input name="Pos" type="hidden" id="Pos" value="BrisasdeMarAzul">
+    <input name="Lng" type="hidden" id="Lng" value="es">
+    <input name="Currency" type="hidden" id="Currency" value="ARS">
+    <input name="MaxAgeChildrenNumber" type="hidden" id="MaxAgeChildrenNumber" value="15">
+	 <input name="MaxAgeBabiesNumber" type="hidden" id="MaxAgeBabiesNumber" value="2">
+    
+    
+   <input name="ReturnUrl" type="hidden" id="ReturnUrl" value="https://www.brisasdemarazul.com.ar/lp.html">
+   
+    <input name="FromUrl" type="hidden" id="FromUrl" value="https://www.brisasdemarazul.com.ar/">
+    <input name="Tag" type="hidden" id="Tag" value="www.google.com">
+    <input name="Source" id="Source" type="hidden" value="Contact Form">
+    
+    <input name="SearchID" type="hidden" id="SearchID" value="0">
+    
+    <input name="FromPID" type="hidden" id="FromPID" value="2870"> 
+    
+    <input name="Type" type="hidden" id="Type" value="Hotel">
+	
+
+    		<input name="ProductID" type="hidden" id="ProductID" value="2870">
+	    
+			<input name="ListID" type="hidden" id="ListID" value="0">
+	
+    <input name="Location" type="hidden" id="Location" value="">
+
+	<input name="Device" type="hidden" id="Device" value="Computer">
+    
+    <input name="UserID" type="hidden" id="UserID" value="">
+    <input name="tag" type="hidden" id="tag" class="tag_cookie" value="www.google.com">www.google.com</input>
+        
+    <input name="Email" type="hidden" id="Email" value="">
+    <input name="UserType" type="hidden" id="UserType" value="">
+    <input name="AgreementType" type="hidden" id="AgreementType" value="">
+    
+    <input name="GroupsForm" type="hidden" id="GroupsForm" value="1:2,0,0">
+    
+    
+    
+		<input name="SkuID" type="hidden" id="SkuID" value="">
+	    
+        
+	<div class="nodisplay" id="MinNightsError">
+	El minimo de noches debe ser mayor o igual a  0 
+	</div>  
+	  
+	<input name="MinNights" type="hidden" id="MinNights" value="0">  
+	  
+    <div name="PxMkAcion_Search" id="PxMkAcion_Search" class="px-sm-searchbtn px-sm-inputcontainer w-padding px-mk-fixedwith-inputcontainer cta_webcheckin_px" btntxt="Ver Tarifas" loadingbtntxt="Buscando">
+		<span>Ver Tarifas</span>
+		<label for="" class="px-mk-searchicon px-mk-inputicon ignoreclick">
+			<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 373.12 373.12" style="enable-background:new 0 0 373.12 373.12;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M266.667,234.667h-16.96l-5.867-5.867c20.907-24.213,33.493-55.68,33.493-90.133C277.333,62.08,215.253,0,138.667,0
+			S0,62.08,0,138.667s62.08,138.667,138.667,138.667c34.453,0,65.92-12.587,90.133-33.387l5.867,5.867v16.853L341.333,373.12
+			l31.787-31.787L266.667,234.667z M138.667,234.667c-53.013,0-96-42.987-96-96c0-53.013,42.987-96,96-96c53.013,0,96,42.987,96,96
+			C234.667,191.68,191.68,234.667,138.667,234.667z"></path>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+		</label>
+		<label for="" class="px-mk-searchloader px-mk-inputicon nodisplay ignoreclick">
+			<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26.349px" height="26.35px" viewBox="0 0 26.349 26.35" style="enable-background:new 0 0 26.349 26.35;" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+		</label>
+	</div>
+    
+</form>
+
+<input type="hidden" id="MainPos" value="BrisasdeMarAzul">
+                  
+
+</div>
+
+
+
+<div id="dataconfig" urldispo="id=2870&amp;RateID=619&amp;start=2021-08-19" class="nodisplay" lng="es" datepickerstart="0"></div>
+
+
+			
+		
+	</div>
+
+ 
+
+
+<div id="searchOverlay" class="search_overlay"></div> 
+
+</div>
+
+</div>
+	
+<div class="main_wraper_content index" id="main_wraper_content" url="/index_vista.html?pos=BrisasdeMarAzul&amp;device=computer&amp;lng=es" current-class="index"> 
+
+<div class="neo_template_container neo_template_ computer">
+
+
+<div class="main-img"><div class="description-box"><div class="description-box-content flex-center flex-column"><div class="title">Brisas de Mar Azul</div><div class="content">BRISAS DE MAR AZUL está compuesto por seis aparts de moderno diseño, ubicado a sólo 400 mts de la playa de Mar Azul y a 100 mts del centro comercial. Nuestros amplios ventanales están pensados para que puedas vislumbrar las hermosas vistas que nos ofrece el bosque del lugar.</div></div></div></div> 
+
+
+<div class="flex services-container container flex-wrap"><ul class="xs-100"><li class=""><i class="mdi mdi-wifi"></i><span class="">WiFi</span></li><li class=""><i class="mdi mdi-dog-side"></i><span class="">Pet Friendly</span></li><li class=""><i class="mdi mdi-pool"></i><span class="">Piscina al aire libre <br>*Sujeta a protocolos Covid 19</span></li><li class=""><i class="mdi mdi-parking"></i><span class="">Estacionamiento Gratis</span></li><li class=""><i class="mdi mdi-food-fork-drink"></i><span class="">Cocina equipada y Parrilla</span></li><li class=""><i class="mdi mdi-broom"></i><span class="">Servicio de Ropa Blanca</span></li></ul><div class="call-to-action flex flex-center xs-100"><div class="btn_general dark toggle_search"><i class="mdi mdi-room-service"></i><span class="">Reservar Ahora</span></div></div></div> 
+
+
+<div class="activity-container flex-center"><div class="slider-index flex flex-m-center" slide="HomePage" file_width="1900" file_height="768"><div class="pxModule_include  ModuloWrap_swiper  ">
+<div class="nodisplay" id="Fancy_Width" rel="800"></div>
+<div class="nodisplay" id="Fancy_Height" rel="600 "></div>
+
+
+<div class="swiper-container swiper-container-dispositivas swiper-container-initialized swiper-container-horizontal" style="width: 100%; overflow: hidden; height: 459px;">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-18160px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="36" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage5aadac32e81095fd1726630d9e619ef67981aacf.jpg">
+					
+            									           		            	        	</div>
+        			<div class="swiper-slide" data-swiper-slide-index="0" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepageadb9fd7ceba352d846333e014084fa39cfb13f9d.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="1" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagee6c0892c00bc7922da4f8226da0f80d0afb14a24.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="2" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage429b537fb0967529f729c10e3a3185d6b7064b18.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="3" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagedfe10e447080d0de8efbab58e121d8eed8a8d3ac.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="4" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage8f8a3c09b3a2b2b9e11082394b258c56bbb56950.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="5" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepaged2d9e76b86fe4e81f9ddba85b945fd1f438133ac.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="6" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage40a3d389d0873e2d744edb9fbdbda2ecfa7e33ce.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="7" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagec4d4fa1b486985fbfc5a051a41aad519008b0346.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="8" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagef62f3862f21c0e093529db968e66110db2bab0b4.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="9" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage745822dad1a7952ecc08278178e826c5d23ae156.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="10" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage6447facad76980a60504f133b81382d3241968fe.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="11" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagee926efc6d2955595918479281f96dc7a8a5bff77.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="12" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagefd23a0f77d2ba419df4262b887a9c1c19e0afb29.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="13" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagef8bec171e289f17638c66d4c2cf86676fdb31275.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="14" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagedc44c5bd5752e422be44bea85475c386cc6d1199.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="15" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage5aadac32e81095fd1726630d9e619ef67981aacf.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide swiper-slide-next" data-swiper-slide-index="16" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage66322cca57b36b4f50d0b6e9dfa87948a5918648.jpg">
+					
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="17" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage81ae994380442b505974a7554c1019cb0eb280ce.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=882afa5a1f600ef2ef28bde67d5b34e0" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage81ae994380442b505974a7554c1019cb0eb280ce.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="18" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepageeeec46707fc54e8410c659a0b071c6069665554b.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=0358c7836c1d9dcee5f9d3fbdfda3575" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepageeeec46707fc54e8410c659a0b071c6069665554b.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="19" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage09639d3956797b8265965c9131c07a8db22076a8.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=3c186b4ca1ecf916ff8af6437973d578" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage09639d3956797b8265965c9131c07a8db22076a8.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="20" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepagea6b839d2bdea37a0be6c14835bd498d3d91606b2.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=43f32d1c747c9c5983798d376c42cdf0" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagea6b839d2bdea37a0be6c14835bd498d3d91606b2.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="21" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage0cefec9fe657ec9b35f7821d120a75014de9966b.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=8ceba379121499e829e58abb010830ad" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage0cefec9fe657ec9b35f7821d120a75014de9966b.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="22" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepagee91430577d38f4bbe00a250fd77202a0b5afdedd.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=03b911a0a41c486d5b57a977825e9a9a" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagee91430577d38f4bbe00a250fd77202a0b5afdedd.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="23" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage041366210f6278f784ae1f1cd49af7d991a606db.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=b1101769c8e7a7851c28540da01ef379" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage041366210f6278f784ae1f1cd49af7d991a606db.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="24" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage6de9f66c4e0ef651f568b7b0fe42824d643e639e.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=21fcdacd28acf17f79d8228074994da7" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage6de9f66c4e0ef651f568b7b0fe42824d643e639e.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="25" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage7f2a26d108aa38a14c6dc121ad24b247a5ea9deb.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=3cd0db6b98328547fa197dd507ed3f53" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage7f2a26d108aa38a14c6dc121ad24b247a5ea9deb.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="26" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage0cefec9fe657ec9b35f7821d120a75014de9966b.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=8ceba379121499e829e58abb010830ad" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage0cefec9fe657ec9b35f7821d120a75014de9966b.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="27" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepagea6b839d2bdea37a0be6c14835bd498d3d91606b2.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=43f32d1c747c9c5983798d376c42cdf0" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagea6b839d2bdea37a0be6c14835bd498d3d91606b2.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="28" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage6447facad76980a60504f133b81382d3241968fe.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=ae575f3687b4458d2f2c72ae4c044e2e" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage6447facad76980a60504f133b81382d3241968fe.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="29" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage7f2a26d108aa38a14c6dc121ad24b247a5ea9deb.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=3cd0db6b98328547fa197dd507ed3f53" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage7f2a26d108aa38a14c6dc121ad24b247a5ea9deb.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="30" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepagef62f3862f21c0e093529db968e66110db2bab0b4.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=8d1f131cfc35a62780bb1f2d9ec916f2" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagef62f3862f21c0e093529db968e66110db2bab0b4.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="31" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage81ae994380442b505974a7554c1019cb0eb280ce.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=882afa5a1f600ef2ef28bde67d5b34e0" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage81ae994380442b505974a7554c1019cb0eb280ce.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="32" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage429b537fb0967529f729c10e3a3185d6b7064b18.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=667d99e35eaa336fbad89b304bc2d8f1" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage429b537fb0967529f729c10e3a3185d6b7064b18.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="33" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepaged2d9e76b86fe4e81f9ddba85b945fd1f438133ac.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=2218321599e5af78d8e390ec9deafde3" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepaged2d9e76b86fe4e81f9ddba85b945fd1f438133ac.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="34" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepagedfe10e447080d0de8efbab58e121d8eed8a8d3ac.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=a5e26a5a9f30b9a03f70ddb7b30063e0" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepagedfe10e447080d0de8efbab58e121d8eed8a8d3ac.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="35" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepage6de9f66c4e0ef651f568b7b0fe42824d643e639e.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=21fcdacd28acf17f79d8228074994da7" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage6de9f66c4e0ef651f568b7b0fe42824d643e639e.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div>
+						<div class="swiper-slide" data-swiper-slide-index="36" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy lazyload-loaded swiper-lazy-loaded" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepage5aadac32e81095fd1726630d9e619ef67981aacf.jpg">
+					
+            									           		            	        	</div>
+				<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 1135px;">
+            	            	            		<img class="swiper-lazy swiper-lazy-loading lazyload-loaded" data-src="https://picsv3-b.pxsol.com/1512/BrisasdeMarAzul/Homepageadb9fd7ceba352d846333e014084fa39cfb13f9d.jpg?auto=format&amp;h=768&amp;ixlib=php-3.3.0&amp;w=1900&amp;s=0c4372c554fc6f47f12654720a4494f6" style="height:auto;" width="100%" height="auto" alt="Brisas de Mar Azul" src="./pileta 2_files/Homepageadb9fd7ceba352d846333e014084fa39cfb13f9d.jpg">
+					<div class="swiper-lazy-preloader"></div>
+            									           		            	        	</div></div>
+			<div class="swiper-pagination swiper-pagination-dispositivas swiper-pagination-white"></div>
+		<div class="swiper-button-prev swiper-button-prev-dispositivas swiper-button-white" tabindex="0" role="button" aria-label="Previous slide"></div>
+		<div class="swiper-button-next swiper-button-next-dispositivas swiper-button-white" tabindex="0" role="button" aria-label="Next slide"></div>
+	    
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+
+<div id="dataconfig-swiper" auto="1" speed="5000" style="display:none"></div>
+</div></div><div class="activity-block flex flex-center flex-column"><div class="title">En medio del Bosque, a pasos del mar</div><div class="content">Con amplios ventanales pensados para que puedas vislumbrar las hermosas vistas que nos ofrece el bosque del lugar. Todas las aberturas son de doble vidrio hermético y con cortinas black out que aseguran un descanso placentero. La decoración y el equipamiento lo hacen confortable a la hora de disfrutar sin prisa del lugar.</div><div class=""><a class="btn_general white" href="https://www.brisasdemarazul.com.ar/apartamentos.html" target="">Conocé Nuestros Apartamentos</a></div></div></div> 
+
+
+<div class="flex flex-center flex-wrap"><div class="contact-container flex-center"><div class="title ">En Balneario Las Gaviotas, Mar Azul, a 400 metros de la playa</div><a class="btn_general dark margin-right-20" href="https://www.brisasdemarazul.com.ar/contacto.html" target="">Contactanos</a><div class="btn_general dark toggle_search"><i class="mdi mdi-room-service"></i><span class="">Reservar Ahora</span></div></div><div class="xs-100 "><iframe class="contact-map" src="./pileta 2_files/embed.html">El modulo no existe:<br>/home/ubuntu/gitdeployment/projects/webroot/computer/module/iframe/module.php<br></iframe></div><div class="flex flex-center  contentblock"><div class="main_herotxt full flex flex-center"><div class="contentblock padding-top-25 padding-bottom-25 padding-lg-top-50 padding-lg-bottom-50"><div class="full">
+			  <div class="neo_template_block neo_neo_social_proof pxModule_include ModuloWrap_neo_social_proof" id="neo_social_proof">
+			  
+
+ 
+<div class="swiper-socialproof-initializer" slides="3" swiperid="neosocialproof_1024576144"></div>
+
+<div class="neo_socialproof_slider_titulo">Nuestros huéspedes opinan</div>
+ 
+<div class="neo_promoswiper_container swiper-container swiper-container-initialized swiper-container-horizontal" id="neosocialproof_1024576144">
+
+<div class="neo_socialproof_slider_container swiper-wrapper" style="transition-duration: 300ms; transform: translate3d(-10224px, 0px, 0px);"><div class="neo_socialproof_slide_item swiper-slide swiper-slide-duplicate" id="neosocial_item_136381" data-swiper-slide-index="47" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.7		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atención de Juan, la independencia que brindan, y la comodidad del espacio(si bien pequeño ambiente,muy cómodo para dos personas)		</div>
+						<div class="neo_socialproof_slide_name">
+			Ivana, Ar		</div>
+			
+
+	</div><div class="neo_socialproof_slide_item swiper-slide swiper-slide-duplicate" id="neosocial_item_136144" data-swiper-slide-index="48" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El personal super amable, el lugar muy lindo relajado. Nos gustó que cada uno tiene su patio, muy equipado. Por el tema Covid esta muy organizado.		</div>
+						<div class="neo_socialproof_slide_name">
+			Julia		</div>
+			
+
+	</div><div class="neo_socialproof_slide_item swiper-slide swiper-slide-duplicate" id="neosocial_item_135974" data-swiper-slide-index="49" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.5		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El jardín y la ubicación		</div>
+						<div class="neo_socialproof_slide_name">
+			Maria Ines		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_151167" data-swiper-slide-index="0" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.3		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El balcón y la parrilla		</div>
+						<div class="neo_socialproof_slide_name">
+			Carola		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_151060" data-swiper-slide-index="1" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.7		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Super cálido y mucho aire puro, la terraza con la parrilla es sin dudas el mejor lugar del departamento.		</div>
+						<div class="neo_socialproof_slide_name">
+			Mariano, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_150768" data-swiper-slide-index="2" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El descanso		</div>
+						<div class="neo_socialproof_slide_name">
+			Paola, Ar		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_150623" data-swiper-slide-index="3" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El departamento hermoso y la atención excelente.		</div>
+						<div class="neo_socialproof_slide_name">
+			Valentina, Ar		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_150554" data-swiper-slide-index="4" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.5		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			tranquilidad. buen trato. entorno de los deptos. equipamiento		</div>
+						<div class="neo_socialproof_slide_name">
+			Mariana		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_150516" data-swiper-slide-index="5" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.7		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Excelente!!		</div>
+						<div class="neo_socialproof_slide_name">
+			Geraldina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_150378" data-swiper-slide-index="6" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.3		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La vista del lugar por la vegetación y los ventanales		</div>
+						<div class="neo_socialproof_slide_name">
+			Cecilia Mariana		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_148963" data-swiper-slide-index="7" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.3		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Carlos, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_148867" data-swiper-slide-index="8" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.6		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Claudio		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_148676" data-swiper-slide-index="9" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.8		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Magdalena		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_148659" data-swiper-slide-index="10" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atención y buena predisposición de todos y el alojamiento hermoso, cómodo y muy bien ubicado		</div>
+						<div class="neo_socialproof_slide_name">
+			Veronica Elisabet		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_148471" data-swiper-slide-index="11" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.7		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El lugar muy tranquilo apartamento muy completo..unos días hermosos		</div>
+						<div class="neo_socialproof_slide_name">
+			Paula		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_147722" data-swiper-slide-index="12" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.2		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Disfrutar con la familia		</div>
+						<div class="neo_socialproof_slide_name">
+			Diego Gaspar, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_147539" data-swiper-slide-index="13" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.2		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Federico		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_147493" data-swiper-slide-index="14" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atención		</div>
+						<div class="neo_socialproof_slide_name">
+			Gabriela		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_146895" data-swiper-slide-index="15" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.7		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Lo cómodo de los deptos		</div>
+						<div class="neo_socialproof_slide_name">
+			Roberto Mariano		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_146801" data-swiper-slide-index="16" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.8		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Agustina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_146448" data-swiper-slide-index="17" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Marina, Ar		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_146142" data-swiper-slide-index="18" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.2		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Muy lindo		</div>
+						<div class="neo_socialproof_slide_name">
+			Melisa Elisabeth, Ar		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_146115" data-swiper-slide-index="19" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Todo en gral		</div>
+						<div class="neo_socialproof_slide_name">
+			Guillermo, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_146102" data-swiper-slide-index="20" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.6		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El lugar es muy tranquilo para descansar y disfrutar		</div>
+						<div class="neo_socialproof_slide_name">
+			Sergio Ivan		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_145976" data-swiper-slide-index="21" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.3		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Tranquilidad y comodidad		</div>
+						<div class="neo_socialproof_slide_name">
+			Soledad		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_145740" data-swiper-slide-index="22" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Isabel		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide swiper-slide-prev" id="neosocial_item_145681" data-swiper-slide-index="23" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.5		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Un lugar muy tranquilo		</div>
+						<div class="neo_socialproof_slide_name">
+			Carina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide swiper-slide-active" id="neosocial_item_145552" data-swiper-slide-index="24" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.2		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Sergio Ivan		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide swiper-slide-next" id="neosocial_item_144808" data-swiper-slide-index="25" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.7		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Tranquilidad y confort		</div>
+						<div class="neo_socialproof_slide_name">
+			Marcos, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_144653" data-swiper-slide-index="26" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atención fue excelente, el lugar era muy comodo y estaba muy bien equipado.		</div>
+						<div class="neo_socialproof_slide_name">
+			Leandro		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_144047" data-swiper-slide-index="27" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Es cómodo, parece mas lujoso de lo que es. Pero en relación costo calidad esta bien.		</div>
+						<div class="neo_socialproof_slide_name">
+			Mariano, Ar		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_143926" data-swiper-slide-index="28" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.8		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			NN		</div>
+						<div class="neo_socialproof_slide_name">
+			Agustina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_143640" data-swiper-slide-index="29" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.8		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			la ubicación, el balcón		</div>
+						<div class="neo_socialproof_slide_name">
+			Maria, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_143517" data-swiper-slide-index="30" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El lugar es muy lindo, comido y tiene mucha privacidad. Además, cumplen con los protocolos.		</div>
+						<div class="neo_socialproof_slide_name">
+			Soledad Belén		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_142165" data-swiper-slide-index="31" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.2		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El aire limpio		</div>
+						<div class="neo_socialproof_slide_name">
+			Claudio, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_141601" data-swiper-slide-index="32" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.6		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atención		</div>
+						<div class="neo_socialproof_slide_name">
+			Maria Laura		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_139486" data-swiper-slide-index="33" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.3		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El clima y la tranquilidad.		</div>
+						<div class="neo_socialproof_slide_name">
+			Javier		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_139483" data-swiper-slide-index="34" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.3		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atención de Milagros,súper servicial!! Excelente atención		</div>
+						<div class="neo_socialproof_slide_name">
+			Debora, Ar		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_139409" data-swiper-slide-index="35" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atencion		</div>
+						<div class="neo_socialproof_slide_name">
+			Marga, Ar		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_139399" data-swiper-slide-index="36" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Que podamos irnos después del mediodía		</div>
+						<div class="neo_socialproof_slide_name">
+			Carlos		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_139305" data-swiper-slide-index="37" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Todo! La comodidad del lugar, la cercanía, la tranquilidad y el servicio.		</div>
+						<div class="neo_socialproof_slide_name">
+			Yanina, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_139193" data-swiper-slide-index="38" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.5		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atención de milagros !		</div>
+						<div class="neo_socialproof_slide_name">
+			Carla Romina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_138929" data-swiper-slide-index="39" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			10		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La vista del departamento y la presión del agua		</div>
+						<div class="neo_socialproof_slide_name">
+			Guillermo, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_138567" data-swiper-slide-index="40" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El entorno		</div>
+						<div class="neo_socialproof_slide_name">
+			Melina Noelia		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_138255" data-swiper-slide-index="41" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.5		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			la atencion del personal		</div>
+						<div class="neo_socialproof_slide_name">
+			Matias		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_137910" data-swiper-slide-index="42" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.8		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Muy amable las personas que nos atendieron y resolvieron un problema		</div>
+						<div class="neo_socialproof_slide_name">
+			Gonzalo		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_137790" data-swiper-slide-index="43" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.2		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			tener un deck de uso propio en el departamento		</div>
+						<div class="neo_socialproof_slide_name">
+			Mariana		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_137764" data-swiper-slide-index="44" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9.3		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La cercanía al centro y a la playa. Muy tranquilo el complejo te da la posibilidad de descansar muy bien.		</div>
+						<div class="neo_socialproof_slide_name">
+			Carina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_137577" data-swiper-slide-index="45" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.5		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Llegamos muy tarde y Daisy nos espero hasta la madrugada y nos retiramos un poco más tarde de las 10 hs y no hubo inconveniente		</div>
+						<div class="neo_socialproof_slide_name">
+			Marcelo, Argentina		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_136686" data-swiper-slide-index="46" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.5		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La ubicación, la terraza con parrilla y reposeras, los electrodomesticos		</div>
+						<div class="neo_socialproof_slide_name">
+			Hernan		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_136381" data-swiper-slide-index="47" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.7		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			La atención de Juan, la independencia que brindan, y la comodidad del espacio(si bien pequeño ambiente,muy cómodo para dos personas)		</div>
+						<div class="neo_socialproof_slide_name">
+			Ivana, Ar		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_136144" data-swiper-slide-index="48" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El personal super amable, el lugar muy lindo relajado. Nos gustó que cada uno tiene su patio, muy equipado. Por el tema Covid esta muy organizado.		</div>
+						<div class="neo_socialproof_slide_name">
+			Julia		</div>
+			
+
+	</div>
+
+
+  <div class="neo_socialproof_slide_item swiper-slide" id="neosocial_item_135974" data-swiper-slide-index="49" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.5		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El jardín y la ubicación		</div>
+						<div class="neo_socialproof_slide_name">
+			Maria Ines		</div>
+			
+
+	</div>
+
+
+<div class="neo_socialproof_slide_item swiper-slide swiper-slide-duplicate" id="neosocial_item_151167" data-swiper-slide-index="0" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.3		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El balcón y la parrilla		</div>
+						<div class="neo_socialproof_slide_name">
+			Carola		</div>
+			
+
+	</div><div class="neo_socialproof_slide_item swiper-slide swiper-slide-duplicate" id="neosocial_item_151060" data-swiper-slide-index="1" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			8.7		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			Super cálido y mucho aire puro, la terraza con la parrilla es sin dudas el mejor lugar del departamento.		</div>
+						<div class="neo_socialproof_slide_name">
+			Mariano, Argentina		</div>
+			
+
+	</div><div class="neo_socialproof_slide_item swiper-slide swiper-slide-duplicate" id="neosocial_item_150768" data-swiper-slide-index="2" style="width: 377.667px; margin-right: 1px;">
+		
+  		<div class="neo_socialproof_score">
+			9		</div>
+			
+		<div class="neo_socialproof_subtitle">
+			Lo mejor del hotel:
+		</div>
+		<div class="neo_socialproof_slide_besttxt">
+			El descanso		</div>
+						<div class="neo_socialproof_slide_name">
+			Paola, Ar		</div>
+			
+
+	</div></div>
+
+
+<button type="button" class="swiper-socialproof-nav swiper-prev" tabindex="0" role="button" aria-label="Previous slide"><i class="mdi mdi-chevron-left"></i></button>
+<button type="button" class="swiper-socialproof-nav swiper-next" tabindex="0" role="button" aria-label="Next slide"><i class="mdi mdi-chevron-right"></i></button>
+
+
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+			  </div>
+			  </div></div></div></div></div> 
+
+</div>
+
+
+<script src="./pileta 2_files/api.js.descarga"></script>
+<script type="text/javascript">
+
+
+
+if($('.ModuloWrap_idiomas').length) { 
+					loadjsfile("/computer/module/idiomas/js.js");
+					
+ }; 
+
+
+
+
+if($('.neo_marketplace_buscador_v3').length) { 
+					loadjsfile("/neo_modules/marketplace_buscador_v3/js.js");
+					
+ }; 
+
+
+
+
+if($('.ModuloWrap_swiper').length) { 
+					loadjsfile("/computer/module/swiper/js.js");
+					
+ }; 
+
+
+
+
+if($('.neo_neo_social_proof').length) { 
+					loadjsfile("/neo_modules/neo_social_proof/js.js");
+					
+ }; 
+
+
+
+
+if($('.ModuloWrap_promociones_estaticas_v2').length) { 
+					loadjsfile("/computer/module/promociones_estaticas_v2/js.js");
+					
+ }; 
+
+
+
+
+if($('.neo_neo_habitaciones').length) { 
+					loadjsfile("/neo_modules/neo_habitaciones/js.js");
+					
+ }; 
+
+
+
+
+if($('.ModuloWrap_servicios').length) { 
+					loadjsfile("/computer/module/servicios/js.js");
+					
+ }; 
+
+
+
+
+if($('.ModuloWrap_distancias').length) { 
+					loadjsfile("/computer/module/distancias/js.js");
+					
+ }; 
+
+
+
+
+if($('.ModuloWrap_contacto').length) { 
+					loadjsfile("/computer/module/contacto/js.js");
+					
+ }; 
+
+
+
+
+if($('.ModuloWrap_newsletter').length) { 
+					loadjsfile("/computer/module/newsletter/js.js");
+					
+ }; 
+
+
+</script>
+
+<script>
+
+
+</script>
+
+
+
+
+<script>window.currentContent="index";window.currentDevice="desktop";console.log('CurrentState', window.currentContent, window.currentDevice);</script>
+
+
+<div class="EndError left full" style="max-width: 100vw; overflow: auto;">
+
+              <script>//console.log('%c ' + 'https://api.pxsol.io/v1-web/slide/photos?pos=BrisasdeMarAzul&slide=HomePage', 'background: #B6FD86; color: #000000;' );</script>
+ 
+
+</div>
+
+
+<div id="dialogBox" title="..." class="nodisplay">
+	<p><span class="ui-icon ui-icon-alert alerticon"></span>...</p>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+<div style="display:none !important">
+	-------------------------------------------------------------<br>UrlInclude: /home/ubuntu/gitdeployment/projects/webroot/template.php<br>Folder_Cliente: BrisasdeMarAzul<br>Nivel: 0<br>Pid: 2870<br>Sku: 1<br>ListID: 0<br>Location: <br>Type: Hotel<br>SubType: Hotel<br>lng: es<br>cur: ARS<br>content: index<br>cacheContent: index<br>originalContentPreLng: index<br>Original Request: //www.brisasdemarazul.com.ar/ <br>-------------------------------------------------------------<br></div>
+
+<div class="main_wraper_footer" id="main_wraper_footer">
+	
+
+<div class="neo_template_container neo_template_ computer">
+
+
+<footer class=""><div class="container"><div class="flex flex-center flex-wrap"><div class="xs-100 sm-50"><div class="title">Brisas de Mar Azul</div><ul class="info-list"><li class=""><i class="mdi mdi-phone"></i><span class="">+54 9 11 3804 6037</span></li><li class=""><i class="fab fa-whatsapp"></i><span class="">+54 9 11 3804 6037</span><h5 class="margin-top-10 hidden">Atención de Lunes a Viernes de 10 a 18hs <br> Sábados y domingos Whatsapp de 10 a 13hs</h5></li><li class=""><i class="mdi mdi-map-marker"></i><span class="">Copacabana entre calle 33 y calle 34, Mar Azul, Buenos Aires</span></li><li class=""><i class="mdi mdi-mail"></i><span class="">info@brisasdemarazul.com.ar</span></li><li class=""><small class="">Copyright Brisas de Mar Azul. Todos los derechos reservados.</small></li></ul></div><div class="xs-100 sm-50"><ul class="social-list"><li class=""><a class="fa fa-facebook" href="https://www.facebook.com/BrisasdeMarAzul" target=""><br></a></li><li class=""><a class="fa fa-instagram" href="https://www.instagram.com/brisasdemarazul/" target=""><br></a></li></ul><div class=""><div class="pxModule_include  ModuloWrap_newsletter  "><div id="content_news">
+<div class="left full titlenewsletter">SUSCRÍBETE A NUESTRO NEWSLETTER</div>
+<form id="form_suscribe" name="form_suscribe" method="post" action="https://www.brisasdemarazul.com.ar/newsletter/insert" novalidate="novalidate">
+<div class="wrap_imputs">
+<div class="wrap_emails">
+<input name="Email" type="text" id="Emails" class="input_newsletter" value="" placeholder="Ingresa tu Email">
+</div>
+<div class="SuscribeTitle">
+<button onclick="ga(&#39;send&#39;,&#39;event&#39;,&#39;click&#39;,&#39;boton_suscribirse&#39;,&#39;form_suscribirse&#39;);" class="boton_newsletter" id="Import">Suscribirse</button>
+<input name="EmpresaID" type="hidden" id="EmpresaID" value="1512">
+</div> 
+</div>
+</form>
+</div> </div></div></div></div><div class="flex flex-center flex-wrap mediopagowrap"><div class="medio-pago texto-pago">MEDIOS DE PAGO ACEPTADOS:</div> <img class="medio-pago" lazy-src="https://files-public-web.s3.us-west-2.amazonaws.com/1656/library/c38a815f16661e5f82bce50c63c2eeefd4fe9ca3.png" alt="BrisasdeMarAzul" src="./pileta 2_files/c38a815f16661e5f82bce50c63c2eeefd4fe9ca3.png">  <img class="medio-pago" lazy-src="https://files-public-web.s3.us-west-2.amazonaws.com/1656/library/07d5a39850e61e66a4065d6b5b65bab9458775ee.png" alt="BrisasdeMarAzul" src="./pileta 2_files/07d5a39850e61e66a4065d6b5b65bab9458775ee.png">  <img class="medio-pago" lazy-src="https://files-public-web.s3.us-west-2.amazonaws.com/1656/library/692faaee93c6d14ba6ae3afb13a1158085c05263.png" alt="BrisasdeMarAzul" src="./pileta 2_files/692faaee93c6d14ba6ae3afb13a1158085c05263.png">  <img class="medio-pago" lazy-src="https://files-public-web.s3.us-west-2.amazonaws.com/1656/library/e9d279fdd843f3ffa5bf80ad07a07cce75a4ff05.png" alt="BrisasdeMarAzul" src="./pileta 2_files/e9d279fdd843f3ffa5bf80ad07a07cce75a4ff05.png">  <img class="medio-pago" lazy-src="https://files-public-web.s3.us-west-2.amazonaws.com/1656/library/0e1bc8203dd6ce0b82a2980aadc877dad913e903.png" alt="BrisasdeMarAzul" src="./pileta 2_files/0e1bc8203dd6ce0b82a2980aadc877dad913e903.png">  <img class="medio-pago" lazy-src="https://files-public-web.s3.us-west-2.amazonaws.com/1656/library/0e23b1e3ee16c48ca0a2c74389bbf4964bb22bfe.png" alt="BrisasdeMarAzul" src="./pileta 2_files/0e23b1e3ee16c48ca0a2c74389bbf4964bb22bfe.png">  <img class="medio-pago" lazy-src="https://files-public-web.s3.us-west-2.amazonaws.com/1656/library/1f8863378c009460f5554f708bbf75888168d036.png" alt="BrisasdeMarAzul" src="./pileta 2_files/1f8863378c009460f5554f708bbf75888168d036.png">  <img class="medio-pago" lazy-src="https://files-public-web.s3.us-west-2.amazonaws.com/1656/library/d723d9cb64d48e8ab6ae6a3eaee661e4ced377fc.png" alt="BrisasdeMarAzul" src="./pileta 2_files/d723d9cb64d48e8ab6ae6a3eaee661e4ced377fc.png"> </div><a class="whatsapp-web" target="_blank" href="https://api.whatsapp.com/send?phone=$+54%209%2011%203804%206037"><i class="fab fa-whatsapp"></i></a></div></footer> 
+
+
+<div class="coronavirus"><div class="msaje">En virtud de la situación de público conocimiento respecto al virus COVID 19 hemos tomado las siguientes medidas de PREVENCIÓN y PROTECCIÓN durante su estadía.</div><a class="openmodallink" href="https://www.brisasdemarazul.com.ar/#openModal" target=""><b>VER MEDIDAS</b></a><div id="openModal" class="modalDialog"><div class=""><a class="close" href="https://www.brisasdemarazul.com.ar/#close" target="">X</a><div class=""><h3 class="modalTitle">Comunicado Importante sobre COVID-19</h3><p class=""><b>Queridos Clientes:</b><br>Queremos dedicarles un momentos para hacerles saber que estamos tomando este tiempo incierto con mucha seriedad.<br>Queremos asegurarles que hemos subido todos nuestros standares de precaución y procedimiento de higiene en cada departamento al máximo nivel para asegurarles, tanto a ustedes como a nuestro personal, la protección y el binestar que tenemos que tener a causa del covid-19 (coronavirus).<br>A su vez, cada día estamos atentos a los consejos de su seguridad brindados por las organizacioens de la salud para estar al tanto de la situación.  Como siempre tenemos muchas ganas de recibirlos y sean bienvenidos en nuestros complejos. Estamos sensibles a sus necesidades y preocupacion, y por favor siéntase libre de hacernos saber si hay algoma más que podamos hacer para su confort.</p><p class=""><b>Nuestra Política de Cancelación:</b><br>Se re programaran la totalidad de las reservas hasta el 31/03 por ordenanza municipal. El dinero abonado se tomará para futuras reservas hasta el 31/12 se podrá utilizar, sin distinción de fechas ya se fin de semana o feriado largo. <br>Muchas gracias y esperamos vernos pronto.</p></div></div></div></div> 
+
+</div>
+
+	<div id="footer_px" class="noprint">
+<div class="wraper_footerpx flex-column flex-center">
+
+	<div class="texto_footerpx">
+		Al utilizar este sitio web, acepta el uso de cookies. 		<a target="_blank" rel="nofollow" href="https://www.brisasdemarazul.com.ar/cookiespolicies.php?pos=BrisasdeMarAzul" class="footer_link">Política de cookies</a> | <a target="_blank" rel="nofollow" href="https://www.brisasdemarazul.com.ar/terms.php?pos=BrisasdeMarAzul" class="footer_link">Términos y condiciones</a> | <a target="_blank" rel="nofollow" href="https://www.brisasdemarazul.com.ar/policies.php?pos=BrisasdeMarAzul" class="footer_link">Política de privacidad</a> | <span>Cache: 2021-08-19 18:48:17 | </span><a href="https://www.brisasdemarazul.com.ar/index.html" rel="nofollow" target="_blank">Textos</a> | <span class="framework_f">Framework: 3 | <span class="framework_f">Tag: <span class="tag_cookie">www.google.com</span> </span> </span>
+	</div>
+ 
+	<div class="pxsol_link_f"> 
+		<a target="_blank" href="https://www.pxsol.com.ar/motordereservashoteles" class="footer_link">
+			Booking engine for hotels		</a> 
+		by 
+		<a href="https://www.pxsol.com.ar/" target="_blank" class="footer_link footer_logo_svg" title="Booking engine for hotels">
+			<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 752.42535 358.37866" height="50px" width="23px" xml:space="preserve" id="svg2" version="1.1"><metadata id="metadata8"><rdf:rdf><cc:work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type></cc:work></rdf:rdf></metadata><defs id="defs6"><clippath id="clipPath18" clipPathUnits="userSpaceOnUse"><path id="path16" d="M 0,268.784 H 564.319 V 0 H 0 Z"></path></clippath></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,358.37867)" id="g10"><g id="g12"><g clip-path="url(#clipPath18)" id="g14"><g transform="translate(23.3438,154.8828)" id="g20"><path id="path22" style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 h 12.405 c 11.978,0 20.768,1.891 26.369,5.674 5.601,3.781 8.4,9.691 8.4,17.728 0,7.447 -2.507,13.002 -7.521,16.666 -5.013,3.664 -12.828,5.496 -23.44,5.496 H 0 Z m 71.202,24.112 c 0,-13.534 -4.884,-23.905 -14.65,-31.115 -9.768,-7.21 -23.67,-10.814 -41.707,-10.814 H 0 V -66.309 H -23.344 V 63.294 h 41.118 c 17.841,0 31.207,-3.311 40.097,-9.929 8.886,-6.619 13.331,-16.37 13.331,-29.253"></path></g><g transform="translate(325.4336,123.7686)" id="g24"><path id="path26" style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-11.524 -4.59,-20.565 -13.773,-27.126 -9.179,-6.561 -21.846,-9.84 -37.994,-9.84 -16.149,0 -29.367,2.274 -39.653,6.824 v 20.036 c 6.509,-2.78 13.43,-4.964 20.754,-6.56 7.327,-1.596 14.147,-2.392 20.462,-2.392 9.246,0 16.068,1.594 20.462,4.785 4.396,3.191 6.595,7.475 6.595,12.853 0,4.847 -2.02,8.956 -6.057,12.323 -4.039,3.369 -12.372,7.358 -25.005,11.968 -13.023,4.787 -22.204,10.252 -27.542,16.4 -5.341,6.145 -8.01,13.532 -8.01,22.161 0,10.815 4.233,19.324 12.698,25.53 8.463,6.205 19.827,9.308 34.087,9.308 13.675,0 27.284,-2.719 40.829,-8.156 L -9.572,70.829 c -12.697,4.844 -24.028,7.269 -33.99,7.269 -7.555,0 -13.285,-1.494 -17.19,-4.477 -3.906,-2.985 -5.86,-6.93 -5.86,-11.834 0,-3.369 0.781,-6.25 2.344,-8.644 1.563,-2.393 4.134,-4.653 7.716,-6.782 3.58,-2.127 10.026,-4.935 19.339,-8.421 10.484,-3.959 18.166,-7.654 23.05,-11.08 4.884,-3.429 8.464,-7.3 10.745,-11.613 C -1.14,10.933 0,5.85 0,0"></path></g><g transform="translate(355.8486,153.5532)" id="g28"><path id="path30" style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-15.956 3.547,-28.057 10.646,-36.299 7.097,-8.245 17.614,-12.369 31.548,-12.369 13.87,0 24.335,4.08 31.401,12.235 7.064,8.155 10.598,20.3 10.598,36.433 0,15.897 -3.501,27.953 -10.5,36.168 C 66.693,44.382 56.26,48.49 42.39,48.49 28.391,48.49 17.826,44.382 10.694,36.168 3.564,27.953 0,15.897 0,0 m 109.001,0 c 0,-21.097 -5.811,-37.498 -17.434,-49.198 C 79.946,-60.901 63.486,-66.75 42.194,-66.75 c -21.553,0 -38.108,5.806 -49.667,17.418 -11.558,11.613 -17.334,28.116 -17.334,49.509 0,21.394 5.81,37.823 17.433,49.288 11.622,11.464 28.21,17.198 49.764,17.198 21.227,0 37.635,-5.822 49.227,-17.464 C 103.205,37.556 109.001,21.156 109.001,0"></path></g><g transform="translate(480.5166,88.5742)" id="g32"><path id="path34" style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 V 129.603 H 23.342 V 18.175 H 83.803 V 0 Z"></path></g><g transform="translate(95.5459,218.4404)" id="g36"><path id="path38" style="fill:#ee2735;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 42.967,-58.803 -68.085,-93.3 30.263,-9.074 56.235,77.141 87.961,-120.538 46.28,-13.866 L 79.583,-59.091 159.441,50.344 112.198,36.084 60.982,-33.892 29.65,9.046 Z"></path></g></g></g></g></svg>		</a>
+	</div>
+
+</div>
+</div>
+
+ 
+<script src="./pileta 2_files/domready.js.descarga"></script>
+<script>
+
+var head  = document.getElementsByTagName('head')[0];
+function initializeFontAwesome() {
+	var link  = document.createElement('link');
+	link.id   = "fawesome";
+	link.rel  = 'stylesheet';
+	link.type = 'text/css';
+	link.href = 'https://use.fontawesome.com/releases/v5.7.1/css/all.css';
+	head.appendChild(link);
+}
+
+function initializeMDI() {
+	var link  = document.createElement('link');
+	link.id   = "fawesome";
+	link.rel  = 'stylesheet';
+	link.type = 'text/css';
+	link.href = '/css/materialdesignicons.min.css';
+	head.appendChild(link);
+}
+function initializeToast() {
+	var link  = document.createElement('link');
+	link.id   = "jqToastCss";
+	link.rel  = 'stylesheet';
+	link.type = 'text/css';
+	link.href = '/includes/toast/jquery.toast.min.css';
+	head.appendChild(link);
+	var script  = document.createElement('script');
+	script.id   = "jqToastJs";
+	script.type = 'text/javascript';
+	script.defer = true;
+	script.async = true;
+	script.src = '/includes/toast/jquery.toast.min.js';
+	head.appendChild(script);
+}
+
+DomReady.ready(function() { 
+var link  = document.createElement('link');
+link.id   = "siteCss";
+link.rel  = 'stylesheet';
+link.type = 'text/css';
+
+link.href = '/css_3.css?pos=BrisasdeMarAzul&device=computer&posv=1617181244_2021-03-23T21:03:01.000Z';
+head.appendChild(link);
+ 
+if (typeof deferFontAwesome !== "undefined") {
+    if (!deferFontAwesome) {
+        initializeFontAwesome();
+    }
+} else {
+    initializeFontAwesome();
+}
+
+if (typeof deferMDI !== "undefined") {
+    if (!deferMDI) {
+        initializeMDI();
+    }
+} else {
+    initializeMDI();
+}
+
+if (typeof deferToast !== "undefined") {
+    if (!deferToast) {
+        initializeToast();
+    }
+} else {
+    initializeToast();
+}
+
+
+});
+</script>
+</div>
+	
+
+<div id="ContainerRD" class="nodisplay">
+	<div class="flex flex-center fullheight">
+		<div id="ContainerRDInner">
+		<div id="Loader" class="fullheight flex flex-center" style="display: none;">
+			<img class="animated slideInUp" src="./pileta 2_files/logo_loginrd.png">
+		</div>
+		<div id="CloseRDContainer"><i class="fa fa-times" aria-hidden="true"></i></div>
+			<iframe style="width: 100%; height: 100%; display: inline;" src="./pileta 2_files/saved_resource.html" id="IframeRD" scrolling="no">
+
+			</iframe>	
+		</div>	
+	</div>	
+</div>
+	
+<div id="CortinaCargando" align="center" class="Loading nodisplay" style="height: 2854px; display: none;">
+	<div class="linear-activity">
+    	<div class="indeterminate"></div>
+	</div>
+</div>
+
+<div id="dialogBox" title="..." class="nodisplay">
+	<p><span class="ui-icon ui-icon-alert alerticon"></span>...</p>
+</div>
+
+<script src="./pileta 2_files/js_3.js.descarga" defer="true" async=""></script>
+	 
+<div id="diccionario">
+ 
+</div>
+
+</div>
+<script type="text/javascript" id="">if(-1!==window.location.href.indexOf(".pxsol.com")&&-1===window.location.href.indexOf("secure.pxsol.com")){var script=document.createElement("script");script.src="//js.hs-scripts.com/7398646.js";script.async=!0;script.defer=!0;script.type="text/javascript";script.id="hs-script-loader";document.body.appendChild(script)};</script>
+
+
+<script>window.currentContent="index";window.currentDevice="desktop";console.log('CurrentState', window.currentContent, window.currentDevice);</script>
+
+                                                <div class="show_block show_block_202" already-closed-once="true" style="display: none;">
+                            <div class="megacontainer_neo_popup megacontainer_neo_popup_202 flex flex-center ">
+                                <div class="container_neo_popup center center horizontal">
+                                                                            <div class="popup_img_container">
+                                            <img src="./pileta 2_files/14621858334a953bad4b45e40e3291807a972b5ac4b.jpg" alt="Compra una fraccion de tu departamento">
+                                        </div>
+                                                                        <div class="popup_text_container padding-xs-20 flex-column flex-center text-center">
+                                        <h3 class="title_popup neo_color_primary">
+                                            Compra una fraccion de tu departamento                                        </h3>
+                                        <p class="text_popup" style="margin-bottom: 15px">
+                                            </p><p>Disfrutalo toda la vida</p><p>Asesorate al 11 5908 6082</p>                                        <p></p>
+                                                                                    <a href="https://fractional.com.ar/" target="_blank" class="standard_cta margin-xs-top-20" onclick="">
+                                                Más Información                                            </a>
+                                                                            </div>
+                                    <div id="close_popup" onclick="closePopup(event);" class="close_neo_popup close_popup_202"><i class="mdi mdi-close"></i></div>
+                                </div>
+                            </div>
+                            <div class="dataconfig-popup neo_neo_popup" id-popup="202" data-time="3" data-close-202="false" show_on_pages="[lp_desktop],[lp_mobile],[index_desktop],[index_mobile],[promociones_desktop],[promociones_mobile],[apartamentos_desktop],[apartamentos_mobile],[servicios_desktop],[servicios_mobile],[contacto_desktop],[contacto_mobile],[galeria_desktop],[galeria_mobile],[medidascovid_desktop],[medidascovid_mobile]" current-page="index_desktop"></div>
+                        </div>
+
+                    <!-- End Popup code -->
+
+<div class="EndError left full" style="max-width: 100vw; overflow: auto;">
+
+              <script>//console.log('%c ' + 'https://api.pxsol.io/v1-web/distance/list?id=2870', 'background: #B6FD86; color: #000000;' );</script>
+              <script>//console.log('%c ' + 'https://api.pxsol.io/v1-web/comments/list?pos=BrisasdeMarAzul&id=2870&p=0&score=80&limit=5', 'background: #B6FD86; color: #000000;' );</script>
+              <script>//console.log('%c ' + 'https://api.pxsol.io/v1-web/list/list?pos=BrisasdeMarAzul', 'background: #B6FD86; color: #000000;' );</script>
+              <script>//console.log('%c ' + 'USDARS', 'background: #B6FD86; color: #000000;' );</script>
+              <script>//console.log('%c ' + '97.281273', 'background: #B6FD86; color: #000000;' );</script>
+              <script>//console.log('%c ' + 'https://api.pxsol.io/v1-web/slide/photos?pos=BrisasdeMarAzul&slide=HomePage', 'background: #B6FD86; color: #000000;' );</script>
+ 
+
+</div>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"NRJS-9143e2093e3ed9c1888","applicationID":"823440615","transactionName":"YwdTNkVWWkZYV0FRV1pNZBBeGERUXlEbSFBE","queueTime":0,"applicationTime":1173,"atts":"T0BQQA1MSUg=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script>
+<div id="dialogBox" title="..." class="nodisplay">
+	<p><span class="ui-icon ui-icon-alert alerticon"></span>...</p>
+</div>
+
+
+
+
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all ui-state-disabled" title="&lt;Ant"><span class="ui-icon ui-icon-circle-triangle-w">&lt;Ant</span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Sig&gt;"><span class="ui-icon ui-icon-circle-triangle-e">Sig&gt;</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">agosto</span>&nbsp;<span class="ui-datepicker-year">2021</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th><span title="lunes">L</span></th><th><span title="martes">M</span></th><th><span title="miércoles">X</span></th><th><span title="jueves">J</span></th><th><span title="viernes">V</span></th><th class="ui-datepicker-week-end"><span title="sábado">S</span></th><th class="ui-datepicker-week-end"><span title="domingo">D</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">1</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">2</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">3</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">4</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">5</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">6</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">7</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">8</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">9</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">10</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">11</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">12</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">13</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">14</span></td><td class=" ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">15</span></td></tr><tr><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">16</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">17</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">18</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined ui-datepicker-today"><span class="ui-state-default">19</span></td><td class=" ui-datepicker-days-cell-over undefined ui-datepicker-current-day" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default ui-state-active ui-state-hover" href="https://www.brisasdemarazul.com.ar/index.html#">20</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">21</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">22</a></td></tr><tr><td class=" undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">23</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">24</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">25</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">26</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">27</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">28</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">29</a></td></tr><tr><td class=" undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">30</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="7" data-year="2021"><a class="ui-state-default" href="https://www.brisasdemarazul.com.ar/index.html#">31</a></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div><script type="text/javascript" src="./pileta 2_files/js.js.descarga" class="vistaJsLateLoad"></script><script type="text/javascript" src="./pileta 2_files/js.js(1).descarga" class="vistaJsLateLoad"></script><script type="text/javascript" src="./pileta 2_files/js.js(2).descarga" class="vistaJsLateLoad"></script><script type="text/javascript" src="./pileta 2_files/js.js(3).descarga" class="vistaJsLateLoad"></script><script type="text/javascript" src="./pileta 2_files/js.js(4).descarga" class="vistaJsLateLoad"></script><script type="text/javascript" src="./pileta 2_files/js.js(5).descarga" class="vistaJsLateLoad"></script><script type="text/javascript" src="./pileta 2_files/js.js(6).descarga" class="vistaJsLateLoad"></script><script type="text/javascript" src="./pileta 2_files/finalCallback.js.descarga" class="vistaJsLateLoad"></script><script type="text/javascript" src="./pileta 2_files/finalCallback.js.descarga" class="vistaJsLateLoad"></script></body></html>
