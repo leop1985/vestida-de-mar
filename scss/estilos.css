@@ -105,7 +105,8 @@ footer .footer__logo {
 }
 
 .h4Index {
-  background-color: #ad6d0c;
+  background-color: #080808;
+  color: white;
   border: solid 2px red;
   -webkit-transition: font-size 250ms;
   transition: font-size 250ms;
