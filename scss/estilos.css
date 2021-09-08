@@ -118,11 +118,10 @@ footer .footer__logo {
   background-color: #c59040;
 }
 
-.header__nav {
-  background-color: black;
-  border: solid 2px red;
-}
-
+/*.header__nav{
+    background-color: $colorSecundario;
+    border: solid 2px red;
+}*/
 .anchoImg {
   width: 400px;
 }
@@ -148,18 +147,21 @@ body {
   height: 300px;
 }
 
-.items {
-  font-size: 15px;
-  color: white;
+/*.items {
+    font-size: 15px;
+    color: white;
 }
 
 .items:hover {
-  font-size: 20px;
-}
-
+    font-size: 20px;
+}*/
 .gradiente {
   background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
   background-image: linear-gradient(to right, #050505, #494848);
+}
+
+.border {
+  border: solid 2px red;
 }
 
 .textoCabañas {
