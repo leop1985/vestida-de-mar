@@ -59,11 +59,7 @@ $fontSize: 15px;
     color: $colorPrimario;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: solid 2px red;
-    -webkit-border-radius: solid 2px red;
-    -moz-border-radius: solid 2px red;
-    -ms-border-radius: solid 2px red;
-    -o-border-radius: solid 2px red;  
+    border: solid 2px red;  
 }
 
 .subtitulos {
@@ -182,4 +178,12 @@ body{
     height: $altura/2;
     width: $ancho/2;
     background-color: $colorSecundario;
+}
+
+.imagen_plusmar {
+    height: $altura/2;
+    width: $ancho/3;
+}
+.slogan_plusmar {
+    font-family: cursive ;
 }

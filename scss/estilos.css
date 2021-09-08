@@ -178,4 +178,13 @@ body {
   width: 360px;
   background-color: black;
 }
+
+.imagen_plusmar {
+  height: 100px;
+  width: 240px;
+}
+
+.slogan_plusmar {
+  font-family: cursive;
+}
 /*# sourceMappingURL=estilos.css.map */
