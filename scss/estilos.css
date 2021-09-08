@@ -1,16 +1,12 @@
 @charset "UTF-8";
-@media only screen and (max-width: 768px) {
-  header {
-    color: #FFFFFF;
-    background-color: #666666;
-  }
-  .logo {
-    width: 160px;
-  }
-  body {
-    font-size: 16px;
-    background-color: #f3d0b0;
-  }
+.logo_navbar {
+  height: 40px;
+  width: 60px;
+  border-radius: solid 2px red;
+  -webkit-border-radius: solid 2px red;
+  -moz-border-radius: solid 2px red;
+  -ms-border-radius: solid 2px red;
+  -o-border-radius: solid 2px red;
 }
 
 .separador {
@@ -143,8 +139,8 @@ body {
   padding: 5px;
 }
 
-.carousel__img {
-  height: 300px;
+.index_carousel1 {
+  height: 500px;
 }
 
 /*.items {
@@ -188,5 +184,14 @@ body {
 
 .slogan_plusmar {
   font-family: cursive;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    background-color: #f1b253;
+  }
+  .index_carousel1, .index_imagen_playa, .index_carousel2 {
+    height: 200px;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */

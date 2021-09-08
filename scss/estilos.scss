@@ -11,22 +11,17 @@ $fontSize: 15px;
 
 @import "colores";
 
-@media only screen and (max-width: 768px) {
-    header {
-        color: #FFFFFF;
-        background-color:#666666;
-    }
 
-    .logo {
-        width: 160px;
-    }
 
-    body {
-        font-size: 16px;
-        background-color: rgb(243, 208, 176);
-    }
+.logo_navbar {
+    height: 40px;
+    width: 60px;
+    border-radius: solid 2px red;
+    -webkit-border-radius: solid 2px red;
+    -moz-border-radius: solid 2px red;
+    -ms-border-radius: solid 2px red;
+    -o-border-radius: solid 2px red;
 }
-
 
 .separador{
     border-top: solid 2px red ;
@@ -149,8 +144,8 @@ body{
     padding: 5px;
 }
 
-.carousel__img {
-    height: $altura + 100;
+.index_carousel1 {
+    height: $altura + 300;
 }
 
 /*.items {
@@ -191,4 +186,13 @@ body{
 }
 .slogan_plusmar {
     font-family: cursive ;
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+        background-color: rgb(241, 178, 83);
+    }
+    .index_carousel1, .index_imagen_playa, .index_carousel2  {
+        height: 200px;
+    }
 }
