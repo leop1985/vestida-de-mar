@@ -2,11 +2,15 @@
 .logo_navbar {
   height: 40px;
   width: 60px;
-  border-radius: solid 2px red;
-  -webkit-border-radius: solid 2px red;
-  -moz-border-radius: solid 2px red;
-  -ms-border-radius: solid 2px red;
-  -o-border-radius: solid 2px red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .separador {
@@ -26,6 +30,18 @@
   border: solid 2px red;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.ubicacion_carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contenedorDatos, .contenedorImgActividades {
@@ -84,7 +100,7 @@ footer .footer__logo {
 }
 
 .subtitulosIndex {
-  background-color: #ad6d0c;
+  color: white;
   border: solid 2px red;
   font-size: 30px;
   transition: font-size 250ms;
@@ -192,16 +208,7 @@ body {
   .index_carousel1, .index_imagen_playa, .nuestrasCabanas_carousel {
     height: 200px;
   }
-  .index_ubicacion_carousel2, .index_ubicacion_carousel3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .index_carousel2, .index_carousel3 {
     height: 150px;
     width: 300px;
   }

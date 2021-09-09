@@ -16,11 +16,9 @@ $fontSize: 15px;
 .logo_navbar {
     height: 40px;
     width: 60px;
-    border-radius: solid 2px red;
-    -webkit-border-radius: solid 2px red;
-    -moz-border-radius: solid 2px red;
-    -ms-border-radius: solid 2px red;
-    -o-border-radius: solid 2px red;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 
 .separador{
@@ -40,6 +38,12 @@ $fontSize: 15px;
     border: solid 2px red;
     margin-top: 15px;
     margin-bottom: 15px; 
+}
+
+.ubicacion_carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorDatos, .contenedorImgActividades{
@@ -95,7 +99,7 @@ footer {
 }
     
 .subtitulosIndex {
-    background-color: rgb(173, 109, 12);
+    color: white;
     border: solid 2px red;
     font-size: 30px;
     transition:font-size 250ms;
@@ -198,12 +202,7 @@ body{
     .index_carousel2, .index_carousel3 {
         height: 150px;
         width: 300px;
-    }
-    .index_ubicacion_carousel2, .index_ubicacion_carousel3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+
     }
     .masajes_ubicacion_imagenes {
         display: flex;
