@@ -247,8 +247,8 @@ body {
     height: 40px;
     width: 40px;
     position: fixed;
-    top: 80px;
     right: 20px;
+    top: 560px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -257,6 +257,10 @@ body {
   }
   .anchoImg {
     width: 260px;
+  }
+  .copyrights {
+    color: white;
+    font-size: 15px;
   }
 }
 
