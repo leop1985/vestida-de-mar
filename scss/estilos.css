@@ -10,8 +10,7 @@
 }
 
 .separador {
-  border-top: solid 2px red;
-  margin-top: 20px;
+  margin: 15px;
 }
 
 .contenedorImg {
@@ -72,7 +71,7 @@ footer .footer__links {
 }
 
 footer .footer__links--size {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 footer .footer__logo {
@@ -126,7 +125,7 @@ body {
   background-color: #f1b253;
 }
 
-.index__main__section1, .index__main__section2 {
+.index__main__section1, .index__main__section2, .actividades_ubicacion_texto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,8 +189,58 @@ body {
   body {
     background-color: #f1b253;
   }
-  .index_carousel1, .index_imagen_playa, .index_carousel2 {
+  .index_carousel1, .index_imagen_playa, .nuestrasCabanas_carousel {
     height: 200px;
   }
+  .index_ubicacion_carousel2, .index_ubicacion_carousel3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 150px;
+    width: 300px;
+  }
+  .masajes_ubicacion_imagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .plusmar_cotiza {
+    font-size: 30px;
+  }
+}
+
+.nuestrasCabanas_carousel {
+  height: 300px;
+}
+
+.nuestrasCabanas_container1, .nuestrasCabanas_container2, .nuestrasCabanas_container3, .nuestrasCabanas_container4 {
+  border: solid 2px red;
+}
+
+.copyrights {
+  color: white;
+  font-size: 15px;
+}
+
+.actividades_imagen {
+  height: 250px;
+  width: 350px;
+}
+
+.carousel_plusmar {
+  height: 200px;
+  width: 600px;
 }
 /*# sourceMappingURL=estilos.css.map */
