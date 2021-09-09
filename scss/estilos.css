@@ -11,6 +11,11 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .separador {
@@ -90,9 +95,17 @@ footer .footer__links--size {
   font-size: 20px;
 }
 
-footer .footer__logo {
+.logo_whatsapp {
   height: 50px;
   width: 50px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .subtitulos:hover {
@@ -134,7 +147,7 @@ footer .footer__logo {
     border: solid 2px red;
 }*/
 .anchoImg {
-  width: 400px;
+  width: 30px;
 }
 
 body {
@@ -172,7 +185,11 @@ body {
 }
 
 .border {
-  border: solid 2px red;
+  border-radius: solid 2px red;
+  -webkit-border-radius: solid 2px red;
+  -moz-border-radius: solid 2px red;
+  -ms-border-radius: solid 2px red;
+  -o-border-radius: solid 2px red;
 }
 
 .textoCabañas {
@@ -226,6 +243,21 @@ body {
   .plusmar_cotiza {
     font-size: 30px;
   }
+  .logo_whatsapp {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .anchoImg {
+    width: 260px;
+  }
 }
 
 .nuestrasCabanas_carousel {
@@ -249,5 +281,10 @@ body {
 .carousel_plusmar {
   height: 200px;
   width: 600px;
+}
+
+.datos_footer {
+  font-size: 15px;
+  color: white;
 }
 /*# sourceMappingURL=estilos.css.map */
