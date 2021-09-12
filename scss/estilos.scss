@@ -42,7 +42,12 @@ $fontSize: 15px;
     background-color: rgb(214, 131, 7);
     border: solid 2px red;
     margin-top: 15px;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
 }
 
 .ubicacion_carousel {
@@ -53,9 +58,13 @@ $fontSize: 15px;
 
 .contenedorDatos, .contenedorImgActividades{
     background-color: rgb(214, 131, 7);
-    border: solid 2px red;
-    margin-top: 15px;
-    margin-bottom: 15px; 
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 15px;
 }
 
 .titulos {
@@ -67,7 +76,6 @@ $fontSize: 15px;
 }
 
 .subtitulos {
-    background-color: $colorSecundario;
     color:$colorPrimario;
     font-size: $fontSize*2;
     transition: font-size 250ms;
@@ -75,6 +83,7 @@ $fontSize: 15px;
     -moz-transition: font-size 250ms;
     -ms-transition: font-size 250ms;
     -o-transition: font-size 250ms;
+    border: solid 2px red;
 }
 
 footer {
@@ -164,6 +173,10 @@ body{
     height: $altura + 300;
 }
 
+.index_carousel2, .index_carousel3  {
+    padding: 10px;
+}
+
 
 /*.items {
     font-size: 15px;
@@ -176,6 +189,11 @@ body{
 
 .gradiente {
     background-image: linear-gradient(to right,#050505, #494848);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .border {
@@ -195,10 +213,8 @@ body{
 }
 
 .boxModal {
-    align-items: center;
-    height: $altura/2;
-    width: $ancho/2;
     background-color: $colorSecundario;
+    padding: 15px;
 }
 
 .imagen_plusmar {
@@ -236,7 +252,7 @@ body{
         width: 40px;
         position: fixed;
         right: 20px;
-        top: 560px;
+        top: 500px;
         border-radius: 10px ;
         -webkit-border-radius: 10px ;
         -moz-border-radius: 10px ;
@@ -282,3 +298,15 @@ body{
     color: white;
 }
 
+.medios_de_pago {
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.medidas_logo_de_pago {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

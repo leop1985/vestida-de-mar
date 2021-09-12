@@ -35,6 +35,11 @@
   border: solid 2px red;
   margin-top: 15px;
   margin-bottom: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .ubicacion_carousel {
@@ -51,9 +56,13 @@
 
 .contenedorDatos, .contenedorImgActividades {
   background-color: #d68307;
-  border: solid 2px red;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 15px;
 }
 
 .titulos {
@@ -65,7 +74,6 @@
 }
 
 .subtitulos {
-  background-color: black;
   color: white;
   font-size: 30px;
   transition: font-size 250ms;
@@ -73,6 +81,7 @@
   -moz-transition: font-size 250ms;
   -ms-transition: font-size 250ms;
   -o-transition: font-size 250ms;
+  border: solid 2px red;
 }
 
 footer {
@@ -171,6 +180,10 @@ body {
   height: 500px;
 }
 
+.index_carousel2, .index_carousel3 {
+  padding: 10px;
+}
+
 /*.items {
     font-size: 15px;
     color: white;
@@ -182,6 +195,11 @@ body {
 .gradiente {
   background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
   background-image: linear-gradient(to right, #050505, #494848);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .border {
@@ -201,12 +219,8 @@ body {
 }
 
 .boxModal {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100px;
-  width: 360px;
   background-color: black;
+  padding: 15px;
 }
 
 .imagen_plusmar {
@@ -248,7 +262,7 @@ body {
     width: 40px;
     position: fixed;
     right: 20px;
-    top: 560px;
+    top: 500px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -293,5 +307,22 @@ body {
 .datos_footer {
   font-size: 15px;
   color: white;
+}
+
+.medios_de_pago {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.medidas_logo_de_pago {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=estilos.css.map */
