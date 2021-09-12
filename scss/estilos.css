@@ -232,6 +232,51 @@ body {
   font-family: cursive;
 }
 
+.nuestrasCabanas_carousel {
+  height: 300px;
+}
+
+.nuestrasCabanas_container1, .nuestrasCabanas_container2, .nuestrasCabanas_container3, .nuestrasCabanas_container4 {
+  border: solid 2px red;
+}
+
+.copyrights {
+  color: white;
+  font-size: 15px;
+}
+
+.actividades_imagen {
+  height: 250px;
+  width: 350px;
+}
+
+.carousel_plusmar {
+  height: 200px;
+  width: 600px;
+}
+
+.datos_footer {
+  font-size: 15px;
+  color: white;
+}
+
+.medios_de_pago {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.medidas_logo_de_pago {
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 @media only screen and (max-width: 720px) {
   body {
     background-color: #f1b253;
@@ -279,50 +324,13 @@ body {
   .email {
     font-size: 20px;
   }
-}
-
-.nuestrasCabanas_carousel {
-  height: 300px;
-}
-
-.nuestrasCabanas_container1, .nuestrasCabanas_container2, .nuestrasCabanas_container3, .nuestrasCabanas_container4 {
-  border: solid 2px red;
-}
-
-.copyrights {
-  color: white;
-  font-size: 15px;
-}
-
-.actividades_imagen {
-  height: 250px;
-  width: 350px;
-}
-
-.carousel_plusmar {
-  height: 200px;
-  width: 600px;
-}
-
-.datos_footer {
-  font-size: 15px;
-  color: white;
-}
-
-.medios_de_pago {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 10px;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.medidas_logo_de_pago {
-  height: 50px;
-  width: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+  .actividades_imagen {
+    height: 150px;
+    width: 200px;
+  }
+  .medidas_logo_de_pago {
+    height: 40px;
+    width: 40px;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
