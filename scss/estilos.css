@@ -13,7 +13,7 @@ body {
   -o-border-radius: 10px;
 }
 
-.contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades {
+.contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades, .contenedorContacto {
   background-color: #d68307;
   border: solid 2px red;
   margin-top: 15px;
