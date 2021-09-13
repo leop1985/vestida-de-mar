@@ -11,14 +11,13 @@ $fontSize: 15px;
 
 @import "colores";
 
-
+body{
+    background-color: rgb(241, 178, 83);
+}
 
 .logo_navbar {
     height: 40px;
     width: 60px;
-    display: flex;
-    align-items: end;
-    justify-content: end;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -26,19 +25,7 @@ $fontSize: 15px;
     -o-border-radius: 10px;
 }
 
-.separador{
-    margin: 15px;
-}
-
-.contenedorImg  {
-    background-color: rgb(214, 131, 7);
-    border: solid 2px red;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    height: $altura;
-}
-
-.contenedorImgIndex {
+.contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades {
     background-color: rgb(214, 131, 7);
     border: solid 2px red;
     margin-top: 15px;
@@ -48,23 +35,7 @@ $fontSize: 15px;
     -moz-border-radius: 10px ;
     -ms-border-radius: 10px ;
     -o-border-radius: 10px ;
-}
-
-.ubicacion_carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedorDatos, .contenedorImgActividades{
-    background-color: rgb(214, 131, 7);
-    border-radius: 10px;
-    padding: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    margin: 15px;
+    padding: 5px;
 }
 
 .titulos {
@@ -86,6 +57,10 @@ $fontSize: 15px;
     border: solid 2px red;
 }
 
+.subtitulos:hover {
+    font-size: $fontSize*2.25;
+}
+
 footer {
     border: solid 2px red;
     margin: $marginGeneral/2;
@@ -99,93 +74,38 @@ footer {
         }
         .footer__links--size {
             font-size: 20px;
-        }    
-                  
+        }
+        .copyrights {
+            color: white;
+            font-size: 15px;
+        }
+        .medios_de_pago {
+            display: flex;
+            padding: 5px;
+            align-items: flex-end;
+            .medidas_logo_de_pago {
+                height: 50px;
+                width: 50px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }               
 }
 
-.logo_whatsapp {
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    top: 10px;
-    right: 20px;
-    border-radius: 10px ;
-    -webkit-border-radius: 10px ;
-    -moz-border-radius: 10px ;
-    -ms-border-radius: 10px ;
-    -o-border-radius: 10px ;
-}
-
-.subtitulos:hover {
-    font-size: $fontSize*2.25;
-}
-    
-.subtitulosIndex {
-    color: white;
-    border: solid 2px red;
-    font-size: 30px;
-    transition:font-size 250ms;
-    -webkit-transition:font-size 250ms;
-    -moz-transition:font-size 250ms;
-    -ms-transition:font-size 250ms;
-    -o-transition:font-size 250ms;
-    padding: 5px;
-}
-
-.h4Index {
-    background-color: rgb(8, 8, 8);
-    color: white;
-    border: solid 2px red;
-    transition:font-size 250ms;
-}
-
-.h4Index:hover {
-    font-size: 26px;
-    background-color: rgb(197, 144, 64);
-}
-
-.subtitulosIndex:hover {
-    font-size: 35px;
-    background-color: rgb(197, 144, 64);
-    }
-    
-/*.header__nav{
-    background-color: $colorSecundario;
-    border: solid 2px red;
-}*/
-
-.anchoImg {
+.mapContactos {
     width: 360px;
 }
 
-body{
-    background-color: rgb(241, 178, 83);
-}
-
-.index__main__section1, .index__main__section2, .actividades_ubicacion_texto {
+.centrado {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
 }
 
-.index_carousel1 {
-    height: $altura + 300;
+.indexCarouselPrincipal {
+    height: $altura + 200;
 }
-
-.index_carousel2, .index_carousel3  {
-    padding: 10px;
-}
-
-
-/*.items {
-    font-size: 15px;
-    color: white;
-}
-
-.items:hover {
-    font-size: 20px;
-}*/
 
 .gradiente {
     background-image: linear-gradient(to right,#050505, #494848);
@@ -221,29 +141,27 @@ body{
     height: $altura/2;
     width: $ancho/3;
 }
+
 .slogan_plusmar {
     font-family: cursive ;
 }
 
-
-
-
-
 .nuestrasCabanas_carousel {
     height: 300px;
 }
-.nuestrasCabanas_container1, .nuestrasCabanas_container2, .nuestrasCabanas_container3, .nuestrasCabanas_container4 {
+.nuestrasCabanas_contenedores {
     border: solid 2px red;
-}
-
-.copyrights {
-    color: white;
-    font-size: 15px;
+    margin: 5px;
 }
 
 .actividades_imagen {
-    height: 250px;
-    width: 350px;
+    height: 200px;
+    width: 300px;
+}
+
+.masajes_imagen {
+    height: 200px;
+    width: 300px;
 }
 
 .carousel_plusmar {
@@ -256,24 +174,24 @@ body{
     color: white;
 }
 
-.medios_de_pago {
-    display: flex;
-    padding: 5px;
-    align-items: flex-end;
-}
-
-.medidas_logo_de_pago {
+.logo_whatsapp {
     height: 50px;
     width: 50px;
-    margin-left: 5px;
-    margin-right: 5px;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
 }
 
 @media only screen and (max-width: 720px) {
     body {
         background-color: rgb(241, 178, 83);
     }
-    .index_carousel1, .index_imagen_playa,  .nuestrasCabanas_carousel  {
+    .indexCarouselPrincipal, .index_imagen_playa,  .nuestrasCabanas_carousel  {
         height: 200px;
     }
     .index_carousel2, .index_carousel3 {
@@ -300,7 +218,7 @@ body{
         -ms-border-radius: 10px ;
         -o-border-radius: 10px ;
     }
-    .anchoImg {
+    .mapContactos {
         width: 260px;
     }
     .copyrights {
@@ -317,5 +235,10 @@ body{
     .medidas_logo_de_pago {
         height: 40px;
         width: 40px;
+    }
+    .ubicacion_carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
