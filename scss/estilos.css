@@ -130,7 +130,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
   -o-border-radius: solid 2px red;
 }
 
-.textoCabañas {
+.textoCabañas, .textoPlusmar {
   color: white;
 }
 
@@ -194,6 +194,12 @@ footer .medios_de_pago .medidas_logo_de_pago {
   -o-border-radius: 10px;
 }
 
+.logo_face, .logo_twitter, .logo_insta {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
 @media only screen and (max-width: 720px) {
   body {
     background-color: #f1b253;
@@ -220,8 +226,8 @@ footer .medios_de_pago .medidas_logo_de_pago {
     font-size: 30px;
   }
   .logo_whatsapp {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     position: fixed;
     right: 20px;
     top: 500px;
@@ -259,6 +265,18 @@ footer .medios_de_pago .medidas_logo_de_pago {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .icono_redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 5px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
