@@ -93,6 +93,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
 
 .mapContactos {
   width: 360px;
+  margin-bottom: 10px;
 }
 
 .centrado {
@@ -150,6 +151,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
 
 .slogan_plusmar {
   font-family: cursive;
+  color: white;
 }
 
 .nuestrasCabanas_carousel {
@@ -169,6 +171,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
 .masajes_imagen {
   height: 200px;
   width: 300px;
+  margin: 5px;
 }
 
 .carousel_plusmar {
@@ -223,6 +226,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
   .index_carousel2, .index_carousel3 {
     height: 150px;
     width: 300px;
+    margin: 10px;
   }
   .masajes_ubicacion_imagenes {
     display: -webkit-box;
@@ -234,6 +238,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 10px;
   }
   .plusmar_cotiza {
     font-size: 30px;
@@ -261,8 +266,9 @@ footer .medios_de_pago .medidas_logo_de_pago {
     font-size: 20px;
   }
   .actividades_imagen {
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
   }
   .medidas_logo_de_pago {
     height: 40px;
