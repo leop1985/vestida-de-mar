@@ -13,6 +13,19 @@ body {
   -o-border-radius: 10px;
 }
 
+.slogan_navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #bbb8b8;
+}
+
 .contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades, .contenedorContacto {
   background-color: #d68307;
   border: solid 2px red;
@@ -185,10 +198,10 @@ footer .medios_de_pago .medidas_logo_de_pago {
 }
 
 .logo_whatsapp {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   position: fixed;
-  top: 10px;
+  top: 80px;
   right: 20px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -248,7 +261,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
     width: 50px;
     position: fixed;
     right: 20px;
-    top: 500px;
+    top: 120px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
