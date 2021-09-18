@@ -187,6 +187,10 @@ footer {
 .carousel_plusmar {
     height: 200px;
     width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 } 
 
 .datos_footer {
@@ -224,8 +228,12 @@ footer {
     body {
         background-color: rgb(241, 178, 83);
     }
-    .indexCarouselPrincipal, .index_imagen_playa, .nuestrasCabanas_carousel  {
+    .indexCarouselPrincipal {
         height: 200px;
+    }
+    .nuestrasCabanas_carousel {
+        height: 200px;
+        width: 300px;
     }
     .index_carousel2, .index_carousel3 {
         height: 150px;

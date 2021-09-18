@@ -205,6 +205,16 @@ footer .medios_de_pago .medidas_logo_de_pago {
 .carousel_plusmar {
   height: 200px;
   width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
 }
 
 .datos_footer {
@@ -248,8 +258,12 @@ footer .medios_de_pago .medidas_logo_de_pago {
   body {
     background-color: #f1b253;
   }
-  .indexCarouselPrincipal, .index_imagen_playa, .nuestrasCabanas_carousel {
+  .indexCarouselPrincipal {
     height: 200px;
+  }
+  .nuestrasCabanas_carousel {
+    height: 200px;
+    width: 300px;
   }
   .index_carousel2, .index_carousel3 {
     height: 150px;
