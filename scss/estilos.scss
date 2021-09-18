@@ -32,7 +32,7 @@ body{
     color: rgb(187, 184, 184);
 }
 
-.contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades, .contenedorContacto {
+.contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades {
     background-color: rgb(214, 131, 7);
     border: solid 2px red;
     margin-top: 15px;
@@ -42,6 +42,19 @@ body{
     -moz-border-radius: 10px ;
     -ms-border-radius: 10px ;
     -o-border-radius: 10px ;
+    padding: 5px;
+}
+
+.contenedorContacto {
+    background-color: rgb(214, 131, 7);
+    border: solid 2px red;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     padding: 5px;
 }
 
@@ -100,6 +113,7 @@ footer {
 }
 
 .mapContactos {
+    height: 250px;
     width: 360px;
     margin-bottom: 10px;
 }
@@ -276,6 +290,7 @@ footer {
     }
     .mapContactos {
         width: 260px;
+        height:200px ;
     }
     .copyrights {
         color: white;
