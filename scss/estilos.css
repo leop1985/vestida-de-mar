@@ -291,6 +291,15 @@ footer .medios_de_pago .medidas_logo_de_pago {
   }
   .slogan_navbar {
     font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .mapContactos {
     width: 260px;
@@ -310,17 +319,6 @@ footer .medios_de_pago .medidas_logo_de_pago {
   .medidas_logo_de_pago {
     height: 40px;
     width: 40px;
-  }
-  .ubicacion_carousel {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .icono_redes {
     display: -webkit-box;

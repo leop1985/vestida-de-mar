@@ -164,6 +164,7 @@ footer {
 .nuestrasCabanas_carousel {
     height: 300px;
 }
+
 .nuestrasCabanas_contenedores {
     border: solid 2px red;
     margin: 5px;
@@ -254,7 +255,9 @@ footer {
     }
     .slogan_navbar{
         font-size: 15px;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .mapContactos {
         width: 260px;
@@ -274,11 +277,6 @@ footer {
     .medidas_logo_de_pago {
         height: 40px;
         width: 40px;
-    }
-    .ubicacion_carousel {
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .icono_redes {
         display: flex;
