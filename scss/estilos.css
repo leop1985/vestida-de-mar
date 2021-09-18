@@ -329,10 +329,10 @@ footer .medios_de_pago .medidas_logo_de_pago {
   }
   .slogan_navbar {
     font-size: 15px;
-    position: 50%;
+    text-align: center;
   }
   .mapContactos {
-    width: 260px;
+    width: 300px;
     height: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -371,6 +371,9 @@ footer .medios_de_pago .medidas_logo_de_pago {
         -ms-flex-align: center;
             align-items: center;
     margin: 5px;
+  }
+  .texto_index {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
