@@ -54,7 +54,6 @@ body {
 }
 
 .titulos {
-  background-color: black;
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -321,7 +320,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
     height: 50px;
     width: 50px;
     position: fixed;
-    right: 20px;
+    right: 10px;
     top: 20%;
     border-radius: 10px;
     -webkit-border-radius: 10px;

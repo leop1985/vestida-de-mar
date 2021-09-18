@@ -60,7 +60,7 @@ body{
 }
 
 .titulos {
-    background-color: $colorSecundario;
+    
     color: $colorPrimario;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -163,6 +163,7 @@ footer {
 .textoCabañas, .textoPlusmar {
     color: white;
     text-align: justify;
+    
 }
 
 .fondo {
@@ -279,7 +280,7 @@ footer {
         height: 50px;
         width: 50px;
         position: fixed;
-        right: 20px;
+        right: 10px;
         top: 20%;
         border-radius: 10px ;
         -webkit-border-radius: 10px ;
