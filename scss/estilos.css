@@ -24,6 +24,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   color: #bbb8b8;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades {
@@ -330,7 +331,16 @@ footer .medios_de_pago .medidas_logo_de_pago {
   }
   .slogan_navbar {
     font-size: 15px;
-    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .mapContactos {
     width: 300px;

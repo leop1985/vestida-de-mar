@@ -30,6 +30,7 @@ body{
     align-items: flex-end;
     justify-content: flex-end;
     color: rgb(187, 184, 184);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades {
@@ -288,7 +289,10 @@ footer {
     }
     .slogan_navbar{
         font-size: 15px;
-        text-align: center;      
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;      
     }
     .mapContactos {
         width: 300px;
