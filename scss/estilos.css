@@ -158,6 +158,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
 
 .textoCabañas, .textoPlusmar {
   color: white;
+  text-align: justify;
 }
 
 .fondo {
@@ -185,7 +186,9 @@ footer .medios_de_pago .medidas_logo_de_pago {
 
 .nuestrasCabanas_contenedores {
   border: solid 2px red;
-  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
 }
 
 .actividades_imagen {
@@ -202,6 +205,16 @@ footer .medios_de_pago .medidas_logo_de_pago {
 .carousel_plusmar {
   height: 200px;
   width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
 }
 
 .datos_footer {
@@ -245,8 +258,12 @@ footer .medios_de_pago .medidas_logo_de_pago {
   body {
     background-color: #f1b253;
   }
-  .indexCarouselPrincipal, .index_imagen_playa, .nuestrasCabanas_carousel {
+  .indexCarouselPrincipal {
     height: 200px;
+  }
+  .nuestrasCabanas_carousel {
+    height: 200px;
+    width: 300px;
   }
   .index_carousel2, .index_carousel3 {
     height: 150px;
@@ -291,6 +308,15 @@ footer .medios_de_pago .medidas_logo_de_pago {
   }
   .slogan_navbar {
     font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .mapContactos {
     width: 260px;
@@ -310,17 +336,6 @@ footer .medios_de_pago .medidas_logo_de_pago {
   .medidas_logo_de_pago {
     height: 40px;
     width: 40px;
-  }
-  .ubicacion_carousel {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .icono_redes {
     display: -webkit-box;
