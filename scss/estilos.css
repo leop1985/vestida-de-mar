@@ -315,6 +315,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
   }
   .plusmar_cotiza {
     font-size: 30px;
+    text-align: center;
   }
   .logo_whatsapp {
     height: 50px;
@@ -379,6 +380,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
   .carousel_contacto {
     height: 220px;
     width: 300px;
+    margin-left: -10px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
