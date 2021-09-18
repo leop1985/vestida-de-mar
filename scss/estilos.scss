@@ -225,7 +225,7 @@ footer {
     height: 70px;
     width: 70px;
     position: fixed;
-    top: 80px;
+    top: 9%;
     right: 20px;
     border-radius: 10px ;
     -webkit-border-radius: 10px ;
@@ -280,7 +280,7 @@ footer {
         width: 50px;
         position: fixed;
         right: 20px;
-        top: 200px;
+        top: 20%;
         border-radius: 10px ;
         -webkit-border-radius: 10px ;
         -moz-border-radius: 10px ;
@@ -322,5 +322,11 @@ footer {
     }
     .texto_index {
         text-align: center;
+    }
+    .carousel_contacto {
+        height: 220px;
+        width: 300px;
+        
+        
     }
 }
