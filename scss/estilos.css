@@ -122,6 +122,10 @@ footer .medios_de_pago .medidas_logo_de_pago {
   padding: 5px;
 }
 
+.justificado {
+  text-align: justify;
+}
+
 .indexCarouselPrincipal {
   height: 400px;
 }
