@@ -179,8 +179,9 @@ footer {
 }
 
 .slogan_plusmar {
-    font-family: cursive ;
+    font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
+    text-align: center;
 }
 
 .nuestrasCabanas_carousel {
@@ -287,8 +288,7 @@ footer {
     }
     .slogan_navbar{
         font-size: 15px;
-        text-align: center;
-        
+        text-align: center;      
     }
     .mapContactos {
         width: 300px;

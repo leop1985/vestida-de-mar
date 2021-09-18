@@ -197,8 +197,9 @@ footer .medios_de_pago .medidas_logo_de_pago {
 }
 
 .slogan_plusmar {
-  font-family: cursive;
+  font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
+  text-align: center;
 }
 
 .nuestrasCabanas_carousel {
