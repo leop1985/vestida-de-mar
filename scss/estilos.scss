@@ -78,7 +78,7 @@ body{
 }
 
 .subtitulos:hover {
-    font-size: $fontSize*2.25;
+    font-size: $fontSize*2.15;
 }
 
 footer {
@@ -122,7 +122,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2px;
+}
+
+.texto_index {
+    text-align: center;
 }
 
 .justificado {
