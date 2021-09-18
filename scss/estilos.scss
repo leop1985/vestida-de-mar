@@ -284,13 +284,15 @@ footer {
     }
     .slogan_navbar{
         font-size: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position: 50%;
+        
     }
     .mapContactos {
         width: 260px;
-        height:200px ;
+        height:200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .copyrights {
         color: white;
