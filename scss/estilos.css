@@ -76,7 +76,6 @@ body {
 }
 
 footer {
-  border: solid 2px red;
   margin: 5px;
   background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
   background-image: linear-gradient(to right, #050505, #494848);
@@ -88,19 +87,25 @@ footer .a {
 
 footer .footer__links {
   color: white;
-  background-color: #d68307;
+  background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
+  background-image: linear-gradient(to right, #050505, #494848);
+  border: solid 1px red;
 }
 
-footer .footer__links--size {
+footer .footer_info {
+  border: solid 1px red;
+}
+
+footer .footer_info .footer__links--size {
   font-size: 20px;
 }
 
-footer .copyrights {
+footer .footer_info .copyrights {
   color: white;
   font-size: 15px;
 }
 
-footer .medios_de_pago {
+footer .footer_info .medios_de_pago {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,7 +115,7 @@ footer .medios_de_pago {
           align-items: flex-end;
 }
 
-footer .medios_de_pago .medidas_logo_de_pago {
+footer .footer_info .medidas_logo_de_pago {
   height: 50px;
   width: 50px;
   margin-left: 5px;
@@ -224,21 +229,6 @@ footer .medios_de_pago .medidas_logo_de_pago {
   margin: 5px;
 }
 
-.carousel_plusmar {
-  height: 200px;
-  width: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px;
-}
-
 .datos_footer {
   font-size: 15px;
   color: white;
@@ -274,6 +264,11 @@ footer .medios_de_pago .medidas_logo_de_pago {
   height: 30px;
   width: 30px;
   margin: 5px;
+}
+
+.carousel_contacto {
+  height: 200px;
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -378,9 +373,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
     text-align: center;
   }
   .carousel_contacto {
-    height: 220px;
-    width: 300px;
-    margin-left: -10px;
+    margin-top: 15px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
