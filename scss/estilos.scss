@@ -140,6 +140,7 @@ footer {
 
 .textoCabañas, .textoPlusmar {
     color: white;
+    text-align: justify;
 }
 
 .fondo {
@@ -167,7 +168,9 @@ footer {
 
 .nuestrasCabanas_contenedores {
     border: solid 2px red;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 
 .actividades_imagen {

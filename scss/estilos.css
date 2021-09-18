@@ -158,6 +158,7 @@ footer .medios_de_pago .medidas_logo_de_pago {
 
 .textoCabañas, .textoPlusmar {
   color: white;
+  text-align: justify;
 }
 
 .fondo {
@@ -185,7 +186,9 @@ footer .medios_de_pago .medidas_logo_de_pago {
 
 .nuestrasCabanas_contenedores {
   border: solid 2px red;
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
 }
 
 .actividades_imagen {
