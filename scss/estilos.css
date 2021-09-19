@@ -78,8 +78,6 @@ body {
 footer {
   border: solid 1px red;
   margin: 5px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
-  background-image: linear-gradient(to right, #050505, #494848);
 }
 
 footer .a {
@@ -88,33 +86,35 @@ footer .a {
 
 footer .medios_de_pago {
   color: white;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
+  background-image: linear-gradient(to right, #050505, #494848);
 }
 
 footer .medidas_logo_de_pago {
   height: 50px;
   width: 50px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 10px;
 }
 
 footer .footer__links {
   color: white;
   background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
   background-image: linear-gradient(to right, #050505, #494848);
-  margin-bottom: 10px;
 }
 
 footer .footer__links .footer__links--size {
   font-size: 20px;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 
 footer .footer_info {
   border: solid 1px red;
   color: white;
   text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
+  background-image: linear-gradient(to right, #050505, #494848);
 }
 
 footer .footer_info .copyrights {
