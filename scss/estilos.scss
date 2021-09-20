@@ -110,21 +110,21 @@ footer {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 30px;
+            margin-top: 20px;
         }
+        .copyrights {
+            color: rgb(131, 130, 130);
+            font-size: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }    
     }
     .footer_info {
         border: solid 1px red;
         color: white;
         text-align: center;    
         background-image: linear-gradient(to right,#050505, #494848);
-
-        .copyrights {
-            color: rgb(131, 130, 130);
-            font-size: 15px;
-            text-align: center;
         }
-    }
 }               
 
 
