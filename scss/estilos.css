@@ -347,8 +347,8 @@ footer .footer__links .copyrights {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .mapContactos {
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 250px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
