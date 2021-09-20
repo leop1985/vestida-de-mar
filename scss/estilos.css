@@ -3,54 +3,20 @@ body {
   background-color: #f1b253;
 }
 
-.logo_navbar {
-  height: 40px;
-  width: 60px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-
-.slogan_navbar {
+.centrado {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  color: #b8b5b5;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades {
-  background-color: #d68307;
-  border: solid 2px red;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  padding: 5px;
-}
-
-.contenedorContacto {
-  background-color: #d68307;
-  border: solid 2px red;
-  border-radius: 10px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  padding: 5px;
+.justificado {
+  text-align: justify;
 }
 
 .titulos {
@@ -75,6 +41,180 @@ body {
   font-size: 32.25px;
 }
 
+.gradiente {
+  background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
+  background-image: linear-gradient(to right, #050505, #494848);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.border {
+  border-radius: solid 2px red;
+  -webkit-border-radius: solid 2px red;
+  -moz-border-radius: solid 2px red;
+  -ms-border-radius: solid 2px red;
+  -o-border-radius: solid 2px red;
+}
+
+.fondo {
+  background-color: #f1b253;
+}
+
+.logo_navbar {
+  height: 40px;
+  width: 60px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.contenedorImgIndex {
+  background-color: #d68307;
+  border: solid 2px red;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px;
+}
+
+.contenedorImgIndex .texto_index {
+  text-align: center;
+}
+
+.contenedorImgIndex .index_carousel2, .contenedorImgIndex .index_carousel3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorNuestrasCabanas {
+  border: solid 2px red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.contenedorNuestrasCabanas .textoCabañas {
+  color: white;
+}
+
+.contenedorNuestrasCabanas .nuestrasCabanas_carousel {
+  height: 300px;
+}
+
+.indexCarouselPrincipal {
+  height: 400px;
+}
+
+.contenedorImgMasajes {
+  background-color: #d68307;
+  border: solid 2px red;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px;
+}
+
+.contenedorImgMasajes .masajes_imagen {
+  height: 200px;
+  width: 300px;
+  margin: 5px;
+}
+
+.contenedorImgActividades {
+  background-color: #d68307;
+  border: solid 2px red;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px;
+}
+
+.contenedorImgActividades .actividades_imagen {
+  height: 200px;
+  width: 300px;
+}
+
+.contenedorContacto {
+  background-color: #d68307;
+  border: solid 2px red;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 5px;
+}
+
+.contenedorContacto .email {
+  font-size: 20px;
+}
+
+.contenedorContacto .mapContactos {
+  height: 250px;
+  width: 360px;
+  margin-bottom: 10px;
+}
+
+.carousel_contacto {
+  height: 200px;
+  margin-top: 15px;
+}
+
+.imagen_plusmar {
+  height: 100px;
+  width: 240px;
+}
+
+.slogan_plusmar {
+  font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.boxModal {
+  background-color: black;
+  padding: 15px;
+}
+
+.logo_whatsapp {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  top: 9%;
+  right: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
 footer {
   border: solid 1px red;
   margin: 5px;
@@ -90,10 +230,24 @@ footer .medios_de_pago {
   background-image: linear-gradient(to right, #050505, #494848);
 }
 
-footer .medidas_logo_de_pago {
+footer .medios_de_pago .medidas_logo_de_pago {
   height: 50px;
   width: 50px;
   margin: 10px;
+}
+
+footer .footer_info {
+  border: solid 1px red;
+  color: white;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
+  background-image: linear-gradient(to right, #050505, #494848);
+}
+
+footer .footer_info .datos_footer {
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
 }
 
 footer .footer__links {
@@ -122,169 +276,17 @@ footer .footer__links .redes {
   margin-top: 20px;
 }
 
-footer .footer__links .copyrights {
-  color: #838282;
-  font-size: 15px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-footer .footer_info {
-  border: solid 1px red;
-  color: white;
-  text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
-  background-image: linear-gradient(to right, #050505, #494848);
-}
-
-.mapContactos {
-  height: 250px;
-  width: 360px;
-  margin-bottom: 10px;
-}
-
-.centrado {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.texto_index {
-  text-align: center;
-}
-
-.justificado {
-  text-align: justify;
-}
-
-.indexCarouselPrincipal {
-  height: 400px;
-}
-
-.index_carousel2, .index_carousel3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.gradiente {
-  background-image: -webkit-gradient(linear, left top, right top, from(#050505), to(#494848));
-  background-image: linear-gradient(to right, #050505, #494848);
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-
-.border {
-  border-radius: solid 2px red;
-  -webkit-border-radius: solid 2px red;
-  -moz-border-radius: solid 2px red;
-  -ms-border-radius: solid 2px red;
-  -o-border-radius: solid 2px red;
-}
-
-.textoCabañas, .textoPlusmar {
-  color: white;
-  text-align: justify;
-}
-
-.fondo {
-  background-color: #f1b253;
-}
-
-.boxModal {
-  background-color: black;
-  padding: 15px;
-}
-
-.imagen_plusmar {
-  height: 100px;
-  width: 240px;
-}
-
-.slogan_plusmar {
-  font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white;
-  text-align: center;
-}
-
-.nuestrasCabanas_carousel {
-  height: 300px;
-}
-
-.nuestrasCabanas_contenedores {
-  border: solid 2px red;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 5px;
-}
-
-.actividades_imagen {
-  height: 200px;
-  width: 300px;
-}
-
-.masajes_imagen {
-  height: 200px;
-  width: 300px;
-  margin: 5px;
-}
-
-.datos_footer {
-  font-size: 15px;
-  color: white;
-  margin-top: 10px;
-}
-
-.logo_whatsapp {
-  height: 70px;
-  width: 70px;
-  position: fixed;
-  top: 9%;
-  right: 20px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-
-.icono_redes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 30px;
-}
-
-.logo_face, .logo_twitter, .logo_insta {
+footer .footer__links .redes .logo_face, footer .footer__links .redes .logo_twitter, footer .footer__links .redes .logo_insta {
   height: 30px;
   width: 30px;
   margin: 5px;
 }
 
-.carousel_contacto {
-  height: 200px;
-  margin-top: 15px;
+footer .footer__links .copyrights {
+  color: #838282;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 720px) {

@@ -15,48 +15,14 @@ body{
     background-color: rgb(241, 178, 83);
 }
 
-.logo_navbar {
-    height: 40px;
-    width: 60px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.slogan_navbar {
+.centrado {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    color: rgb(184, 181, 181);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 
-.contenedorImgIndex, .contenedorImgMasajes, .contenedorImgActividades {
-    background-color: rgb(214, 131, 7);
-    border: solid 2px red;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px ;
-    -webkit-border-radius: 10px ;
-    -moz-border-radius: 10px ;
-    -ms-border-radius: 10px ;
-    -o-border-radius: 10px ;
-    padding: 5px;
-}
-
-.contenedorContacto {
-    background-color: rgb(214, 131, 7);
-    border: solid 2px red;
-    border-radius: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    padding: 5px;
+.justificado {
+    text-align: justify;
 }
 
 .titulos {
@@ -81,83 +47,6 @@ body{
     font-size: $fontSize*2.15;
 }
 
-footer {
-    border: solid 1px red;
-    margin: $marginGeneral/2;          
-    .a {
-        display: none;
-    }
-    .medios_de_pago {
-        color: white;
-        background-image: linear-gradient(to right,#050505, #494848);;
-    }    
-    .medidas_logo_de_pago {
-        height: 50px;
-        width: 50px;
-        margin: 10px;
-    }    
-    .footer__links {
-        color: white;
-        background-image: linear-gradient(to right,#050505, #494848);
-        
-        .footer__links--size {
-            font-size: 20px;
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-top: 20px;
-        } 
-        .redes {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
-        }
-        .copyrights {
-            color: rgb(131, 130, 130);
-            font-size: 15px;
-            text-align: center;
-            margin-top: 20px;
-        }    
-    }
-    .footer_info {
-        border: solid 1px red;
-        color: white;
-        text-align: center;    
-        background-image: linear-gradient(to right,#050505, #494848);
-        }
-}               
-
-
-.mapContactos {
-    height: 250px;
-    width: 360px;
-    margin-bottom: 10px;
-}
-
-.centrado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.texto_index {
-    text-align: center;
-}
-
-.justificado {
-    text-align: justify;
-}
-
-.indexCarouselPrincipal {
-    height: $altura + 200;
-}
-
-.index_carousel2, .index_carousel3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .gradiente {
     background-image: linear-gradient(to right,#050505, #494848);
     border-radius: 10px;
@@ -175,19 +64,117 @@ footer {
     -o-border-radius: solid 2px red;
 }
 
-.textoCabañas, .textoPlusmar {
-    color: white;
-    text-align: justify;
-    
-}
-
 .fondo {
     background-color: rgb(241, 178, 83);
 }
 
-.boxModal {
-    background-color: $colorSecundario;
-    padding: 15px;
+.logo_navbar {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.contenedorImgIndex {
+    background-color: rgb(214, 131, 7);
+    border: solid 2px red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    padding: 5px;
+    .texto_index {
+        text-align: center;
+    }
+    .index_carousel2, .index_carousel3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.contenedorNuestrasCabanas {
+    border: solid 2px red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    .textoCabañas {
+    color: white;
+    }
+    .nuestrasCabanas_carousel {
+    height: 300px;
+    }
+}
+
+.indexCarouselPrincipal {
+    height: $altura + 200;
+}
+
+.contenedorImgMasajes  {
+    background-color: rgb(214, 131, 7);
+    border: solid 2px red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    padding: 5px;
+    .masajes_imagen {
+        height: 200px;
+        width: 300px;
+        margin: 5px;
+    }
+}
+
+.contenedorImgActividades {
+    background-color: rgb(214, 131, 7);
+    border: solid 2px red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    padding: 5px;
+    .actividades_imagen {
+        height: 200px;
+        width: 300px;
+    }
+}
+
+.contenedorContacto {
+    background-color: rgb(214, 131, 7);
+    border: solid 2px red;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px;
+    .email {
+        font-size: 20px;
+    }
+    .mapContactos {
+        height: 250px;
+        width: 360px;
+        margin-bottom: 10px;
+    }
+}
+
+.carousel_contacto {
+    height: 200px;
+    margin-top: 15px;
 }
 
 .imagen_plusmar {
@@ -201,33 +188,10 @@ footer {
     text-align: center;
 }
 
-.nuestrasCabanas_carousel {
-    height: 300px;
-}
-
-.nuestrasCabanas_contenedores {
-    border: solid 2px red;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-}
-
-.actividades_imagen {
-    height: 200px;
-    width: 300px;
-}
-
-.masajes_imagen {
-    height: 200px;
-    width: 300px;
-    margin: 5px;
-}
-
-.datos_footer {
-    font-size: 15px;
-    color: white;
-    margin-top: 10px;
-}
+.boxModal {
+    background-color: $colorSecundario;
+    padding: 15px;
+} 
 
 .logo_whatsapp {
     height: 70px;
@@ -242,23 +206,61 @@ footer {
     -o-border-radius: 10px ;
 }
 
-.icono_redes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-}
-
-.logo_face, .logo_twitter, .logo_insta {
-    height: 30px;
-    width: 30px;
-    margin: 5px;
-}
-
-.carousel_contacto {
-    height: 200px;
-    margin-top: 15px;
-}    
+footer {
+    border: solid 1px red;
+    margin: $marginGeneral/2;          
+    .a {
+        display: none;
+    }
+    .medios_de_pago {
+        color: white;
+        background-image: linear-gradient(to right,#050505, #494848);;
+        .medidas_logo_de_pago {
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+        }    
+    } 
+    .footer_info {
+        border: solid 1px red;
+        color: white;
+        text-align: center;    
+        background-image: linear-gradient(to right,#050505, #494848);
+        .datos_footer {
+            font-size: 15px;
+            color: white;
+            margin-top: 10px;
+        }
+    }   
+    .footer__links {
+        color: white;
+        background-image: linear-gradient(to right,#050505, #494848);
+        .footer__links--size {
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 20px;
+        } 
+        .redes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            .logo_face, .logo_twitter, .logo_insta {
+                height: 30px;
+                width: 30px;
+                margin: 5px;
+            }
+        }
+        .copyrights {
+            color: rgb(131, 130, 130);
+            font-size: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }    
+    }
+    
+} 
 
 @media only screen and (max-width: 720px) {
     body {
